@@ -1,0 +1,464 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Đây là câu hỏi chọn câu thích hợp với chỗ trống.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Phần sau chỗ trống là một lời hoan nghênh ứng tuyển, sau đó là thông báo ngắn gọn về cách ứng tuyển và cuối cùng là mô tả về quy trình ứng tuyển tiếp theo.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Theo đó, đáp án đúng là (A) với ý nghĩa 'Cảm ơn vì đã gọi điện để bày tỏ sự quan tâm đến việc gia nhập vào công ty'.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(B) \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Đoạn thứ hai giải thích quy trình tuyển dụng, có thể thấy công ty vẫn có vị trí công việc có sẵn.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Đoạn thứ hai đề cập đến lịch phỏng vấn sắp tới, cho biết rằng cuộc phỏng vấn vẫn chưa được lên lịch.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) Đây là lúc trước khi ứng tuyển công việc chứ không phải lúc đưa ra lời mời làm việc.\",\"weight\":\"#w400\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cảm ơn bạn đã gọi điện để bày tỏ sự quan tâm đến việc gia nhập vào công ty quan hệ công chúng của chúng tôi.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại thời điểm này, chúng tôi không có bất kỳ vị trí nào có sẵn tại công ty của chúng tôi.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tôi rất thích nói chuyện với bạn trong cuộc phỏng vấn của chúng ta.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Công ty chúng tôi rất vui khi được cung cấp cho bạn một vị trí trong văn phòng Dover.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thank you for your call expressing interest in joining our public relations firm.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At this time, we do not have any available positions at our firm.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"I enjoyed talking with you during our interview.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Our firm is happy to offer you a position in our Dover office.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "id": "10776",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Đây là câu hỏi chọn dạng từ thích hợp với chỗ trống.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Vì có hai danh từ đứng trước và sau chỗ trống nên từ trong chỗ trống phải là giới từ để nối hai danh từ này, và có thể thấy 'sơ yếu lý lịch và một lá thư miêu tả trình độ' là tất cả những thứ mà đối phương cần gửi để xin việc.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Theo đó, đáp án đúng là giới từ (B) với ý nghĩa 'cùng với'\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) side by side \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"là một cụm trạng từ có nghĩa là ‘cạnh nhau’, nó không thể kết nối hai danh từ nên đáp án sai.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) through \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"là một giới từ nhưng được sử dụng trước một địa điểm hoặc khoảng thời gian nên không thích hợp với chỗ trống.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) in addition là \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"một cụm trạng từ có nghĩa là 'thêm vào đó', nó không thể kết nối hai danh từ nên đáp án sai.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"side by side\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"along with\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"through\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"in addition\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"-\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "id": "10777",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Đây là câu hỏi chọn liên từ thích hợp với chỗ trống.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Vì có hai mệnh đề chứa cả chủ ngữ và động từ đứng trước và sau chỗ trống, nên có thể thấy rằng trong chỗ trống phải có một liên từ để nối hai mệnh đề này.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3. Nội dung thích hợp của câu này là '\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Chúng tôi sẽ liên hệ với bạn sau khi nhận được hồ sơ đăng ký' nên đáp án đúng là liên từ (B) có nghĩa là 'sau khi~', được sử dụng để thể hiện thứ tự sự việc.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) following (\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Giới từ\"}],[\"text\",{\"value\":\") sau khi~\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) until (\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Giới từ\"}],[\"text\",{\"value\":\", \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Liên từ\"}],[\"text\",{\"value\":\") đến~\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) around (\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Giới từ\"}],[\"text\",{\"value\":\") xung quanh~\",\"weight\":\"#w400\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"following\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"after\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"until\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"around\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"-\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "id": "10778",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Đây là câu hỏi chọn dạng từ thích hợp với chỗ trống.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Trước chỗ trống có đại từ nhân xưng 'we' và tiền ngữ 'the position', có thể thấy trong chỗ trống là động từ của một mệnh đề quan hệ tân ngữ nhưng đại từ quan hệ bị lược bỏ, chính xác là 'the position + (đại từ quan hệ) + we + chỗ trống '.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Theo đó, ý nghĩa thích hợp nhất là 'vị trí mà chúng ta đã thảo luận', nên đáp án đúng là động từ quá khứ (A).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(B) ‘discussion’ \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"là một danh từ nên không thể được sử dụng như một động từ.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) ‘discussing’ \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"không phải là dạng động từ\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) ‘discuss’ \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"là dạng động từ, nhưng qua cụm từ '\"}],[\"text\",{\"value\":\"From what you told me' thì chúng ta có thể biết việc này đã xảy ra trong quá khứ nên thì hiện tại không thích hợp.\",\"weight\":\"#w400\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"‘Tiền ngữ + chủ ngữ + (chỗ trống)’ --> Cấu trúc này đã lược bỏ đại từ quan hệ nên từ trong chỗ trống phải là thể chủ động của ngoại động từ.\",\"weight\":\"#w400\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"discussed\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"discussion\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"discussing\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"discuss\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "id": "10779",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions  refer to the following letter.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ms. Kathy Ivanson\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"370 Franklin Drive\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Dover, DE 26871\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ivanson thân mến,\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cảm ơn bạn đã gọi điện để bày tỏ sự quan tâm đến việc gia nhập vào công ty quan hệ công chúng của chúng tôi. Chúng tôi hoan nghênh bạn ứng tuyển. Nếu muốn ứng tuyển vào vị trí nhân viên quan hệ công chúng tại công ty, vui lòng gửi sơ yếu lý lịch của bạn cùng với một lá thư miêu tả trình độ của bạn.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Chúng tôi sẽ liên hệ với bạn trong vòng vài tuần kể từ khi nhận được hồ sơ đăng ký của bạn để sắp xếp một cuộc phỏng vấn. Từ những gì bạn đã nói về trình độ học vấn và kinh nghiệm của mình, có vẻ như bạn là một ứng cử viên tiềm năng cho vị trí mà chúng ta đã thảo luận.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thân gửi.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"William Phillips\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giám đốc\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phillips & Clifford Public Relations\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"express [Động từ] thể hiện, bày tỏ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"interest in quan tâm đến~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"public relations firm công ty quan hệ công chúng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"available [Tính từ] khả dụng, có sẵn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"application [Danh từ] (đơn) ứng tuyển\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"apply for ứng tuyển vào~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"publicity agent nhân viên quan hệ công chúng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"mail [Động từ] gửi qua đường bưu điện\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"résumé [Danh từ] sơ yếu lý lịch\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"side by side cạnh nhau\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"along with [Giới từ] cùng với~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"through [Giới từ] thông qua~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"as well as cùng với, hơn nữa, không chỉ~ mà còn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"describe [Động từ] giải thích, miêu tả\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"qualification [Danh từ] (điều kiện) tư cách\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"receive [Động từ] nhận\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"in order to do để làm gì~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"set up đặt lịch~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"seem to do có vẻ như~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"desirable [Tính từ] mong muốn, có thiện cảm\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"candidate [Danh từ] ứng cử viên, người ứng tuyển\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"discuss [Động từ] thảo luận\"}]]}]]}]}",
+                  "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ms. Kathy Ivanson\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"370 Franklin Drive\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Dover, DE 26871\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Dear Ms. Ivanson,\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}],[\"blank\",{\"number\":1}],[\"text\",{\"value\":\". We welcome your application. To apply for a job as a publicity agent with us, please mail us your résumé, \"}],[\"blank\",{\"number\":2}],[\"text\",{\"value\":\" a cover letter describing your qualifications.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"We will contact you within a few weeks  \"}],[\"blank\",{\"number\":3}],[\"text\",{\"value\":\" we receive your application documents in order to set up an interview. From what you told me about your education and background, you really seem to be a desirable candidate for the position we \"}],[\"blank\",{\"number\":4}],[\"text\",{\"value\":\".\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Sincerely,\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"William Phillips\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Senior Partner\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Philllips & Clifford Public Relations\"}]]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        }
+      },
+      "chapter": "context_rc",
+      "chapterList": [
+        "context_rc",
+        "preposition",
+        "conjunction",
+        "tenses"
+      ],
+      "subject": "rc",
+      "part": "p6",
+      "section": 0,
+      "skill": "structure",
+      "dalc": "test_practice",
+      "sectionList": [
+        "meaning_preposition"
+      ],
+      "partList": [
+        "p6"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 35,
+          "second": 56,
+          "nano": 471000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p6-010",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 35,
+          "second": 56,
+          "nano": 471000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

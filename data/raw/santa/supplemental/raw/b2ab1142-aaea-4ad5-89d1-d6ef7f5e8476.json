@@ -1,0 +1,635 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "vocabulary": null,
+        "lessonSet": null,
+        "question": null,
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Khi bắt đầu cuộc hội thoại, người đàn ông nói về bộ sách hướng dẫn mới của anh ấy cho các điểm đến du lịch rồi đề cập đến việc phát hành cuốn sách hướng dẫn này, vì vậy (C) là câu trả lời chính xác. \"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(B) chỉ có nghĩ là gói du lịch, người nghe dễ bị nhầm lẫn khi thấy những từ như \"}],[\"text\",{\"value\":\"travel\",\"italic\":true}],[\"text\",{\"value\":\" hay\"}],[\"text\",{\"value\":\" traveler\",\"italic\":true}],[\"text\",{\"value\":\" xuất hiện trong đáp án\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong câu hỏi loại sản phẩm, bạn cần tìm ra manh mối cho câu trả lời dựa trên thông tin liên quan đến đặc tính, chức năng, điểm mạnh và điểm yếu của sản phẩm, v.v.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ứng dụng di động\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Các gói du lịch\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Sách hướng dẫn du lịch\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Hành lý\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mobile apps\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tour packages\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Travel guides\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Luggage\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những người nói đang thảo luận về loại sản phẩm nào?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What type of product are the speakers discussing?\"}]]}]]}"
+                }
+              },
+              "id": "08d702f8-fdc3-4d77-85c1-644a245371e7",
+              "audioResourceId": "31ab504f-923f-47df-95d9-4517f9a91733"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở giữa cuộc hội thoại, người phụ nữ nói rằng họ cần đảm bảo rằng họ giữ mức giá đủ thấp (we need to make sure we keep the price low enough) nên (D) là đúng vì cô ấy lo lắng về mức giá.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vì đây là câu hỏi người phụ nữ đang lo lắng điều gì, bạn nên tìm kiếm thông tin được trình bày cùng với những biểu hiện quan tâm hoặc lo lắng trong lời nói của người phụ nữ. Ngoài ra, vì mối quan tâm hoặc lo ngại có khả năng liên quan đến nội dung quan trọng hoặc tiêu cực, nên cần xác định manh mối trong phần thông tin chỉ ra tầm quan trọng hoặc các tình huống bất lợi, v.v.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Kích cỡ\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nhu cầu\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngoại hình\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giá cả\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Size\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Demand\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Appearance\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Price\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người phụ nữ nói rằng cô ấy lo lắng đến khía cạnh nào của sản phẩm?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What aspect of the product does the woman say she is concerned about?\"}]]}]]}"
+                }
+              },
+              "id": "86d34a2f-df93-43d7-9bfb-3efea53e9d70",
+              "audioResourceId": "933f052a-506a-4ce0-b518-cce691e6d246"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vào cuối cuộc hội thoại, người đàn ông đã gợi ý \\bhay là xem thử những cuốn sách trên thị trường (take a look at some of the best-selling books on the market), điều này có thể được coi là để so sánh các sản phẩm, vì vậy (D) Compare some products là câu trả lời đúng.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong trường hợp câu hỏi khuyến nghị / đề xuất / yêu cầu, cần phải đọc câu hỏi trước để hiểu rõ ràng ai là người đưa ra khuyến nghị / đề xuất / yêu cầu cho ai, và cần tìm manh mối thông qua những biểu hiện thể hiện sự khuyến nghị / đề xuất / yêu cầu.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thiết kế lại một sản phẩm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Liên hệ với một số khách hàng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mở rộng ngân sách\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"So sánh một số sản phẩm khác\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Redesign a product\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Contact some customers\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Enlarge a budget\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Compare some products\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người đàn ông đề nghị làm gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does the man offer to do?\"}]]}]]}"
+                }
+              },
+              "id": "5b59c8ca-4ede-46c9-949e-8c5698cf8448",
+              "audioResourceId": "44796121-68a4-4d78-9eff-473cad65a3f9"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "rrtV2SectionsJson": "",
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2InlineElementsJson": "",
+              "html": "",
+              "text": "",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 38-40 refer to the following conversation.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "88930638-dfda-4653-8720-48a3773db7a9",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Miranda, I think our new range of guidebooks for popular travel destinations is sure to be a big success. More and more people are buying travel guides these days, and ours stand out from others on the market.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Yes, but I think we need to think carefu\"}],[\"text\",{\"value\":\"lly about some things before we launch new ones. For instance, we need to make sure we keep the price low enough so that even travelers on a budget can buy them.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Good point. Why don’t I take a look at some of the best-selling books on the market? Then, \"}],[\"text\",{\"value\":\"we’ll have a better idea of how much people are willing to spend.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "a5d46fb0-e2f2-4661-8315-ff4362fed53f",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Miranda, tôi nghĩ loạt sách hướng dẫn mới của chúng ta cho các điểm đến du lịch nổi tiếng chắc chắn sẽ thành công lớn. Ngày nay, ngày càng có nhiều người mua sách hướng dẫn du lịch và sách của chúng ta nổi bật so với các sách hướng dẫn du lịch khác trên thị trường.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Đúng, nhưng tôi nghĩ chúng ta cần suy nghĩ kỹ về một số thứ trước khi ra mắt những cái mới. Ví dụ, chúng ta cần đảm bảo rằng chúng ta giữ giá đủ thấp để ngay cả những khách du lịch tiết kiệm cũng có thể mua chúng.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Đúng. \\bHay là tôi xem qua một số cuốn sách bán chạy nhất trên thị trường? Sau đó, chúng ta sẽ có ý tưởng tốt hơn về số tiền mọi người sẵn sàng bỏ ra.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "05b30316-f360-47de-8c4d-785a916d6a30",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nam người Úc | Giọng nữ người Mỹ\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "06254cc3-2e5c-4857-ab69-2f3c1006fcb1",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"range [Danh từ] loạt, dòng (sản phẩm)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"popular [Tính từ] nổi tiếng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"destination [Danh từ] điểm đích, đích đến\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be sure to do: chắc chẵn sẽ làm gì\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"success [Danh từ] thành công\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"stand out from: nổi bật\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"on the market: ở trên thị trường\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"carefully [Trạng từ] cẩn thận\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"launch [Động từ] ra mắt\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"for instance: ví dụ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"make sure (that): đảm bảo rằng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"keep A + tính từ: giữ cho A như thế nào\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"so that [Liên từ] vậy nên... (mục đích)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"even [Trạng từ] thậm chí\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"on a budget: có giới hạn ngân sách\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Good point: một nhận xét đúng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Why don’t I ~? Hay là tôi..?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"take a look at: nhìn vào\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"then [Trạng từ] vậy thì\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"have a better idea of: hiểu rõ hơn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be willing to do: sẵn sàng làm gì\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "5f5e0d33-8766-4e24-affe-1707e5c67a71",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]}"
+                }
+              },
+              "audioResourceId": "bc605995-07aa-4014-a5a3-406e5ee0c66d"
+            }
+          ]
+        },
+        "lesson": null
+      },
+      "questionCount": null,
+      "chapter": null,
+      "wordPosList": null,
+      "chapterList": [
+        "subject",
+        "detail",
+        "request"
+      ],
+      "subject": "lc",
+      "part": "p3",
+      "eqId": null,
+      "section": null,
+      "wordPos": null,
+      "targetWords": null,
+      "skill": "listening",
+      "virtualExam": "full_virtual_exam_kr_2",
+      "v0Voca": null,
+      "dalc": "test_practice",
+      "vocaOngoingStep": null,
+      "migrated": null,
+      "sectionList": null,
+      "contentType": "question",
+      "subjectList": null,
+      "level": null,
+      "lessonGroup": null,
+      "questionSetName": null,
+      "difficulty": null,
+      "vocaGroup": null,
+      "contentTypeList": null,
+      "filename": "[Full_test_2] PART 3_211023.zip",
+      "lessonGroupV2": null,
+      "preventRecommendation": true,
+      "pronounce": "aum",
+      "word": null,
+      "partList": [
+        "p3"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT",
+    "toeicSpeakingPartContent": null,
+    "gtelpContent": null
+  },
+  "baseContent": {
+    "updatedTime": "2025-03-07T09:25:13.493Z",
+    "domain": "TOEIC",
+    "contentId": "b2ab1142-aaea-4ad5-89d1-d6ef7f5e8476",
+    "createdTime": "2023-04-10T13:34:25.526Z",
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

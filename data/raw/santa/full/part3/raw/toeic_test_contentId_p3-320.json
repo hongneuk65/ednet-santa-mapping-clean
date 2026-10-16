@@ -1,0 +1,397 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần đầu hội thoại, sau khi nói lời cảm ơn thì bằng câu \"}],[\"text\",{\"value\":\"\\\"There’s special project that I’d like you to ~\\\"\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\", người đàn ông cho biết có một dự án đặc biệt mà anh ta muốn những nhân viên nữ đảm nhận nên đáp án đúng là (D) Để phân công một dự án.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Người đàn ông chỉ đưa ra một dự án và hỏi xem những người còn lại có tham gia hay không chứ không yêu cầu đề xuất gì nên đây là đáp án sai.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với câu hỏi về ý đồ hoặc mục đích, đáp án đúng thường sẽ xuất hiện ở phần đầu cùng với các cụm 'I'd like to~, I want to~, I need to~, I'll~, I'm calling ~'.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Để đưa ra yêu cầu đề xuất\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Để giới thiệu một sản phẩm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Để đưa ra đánh giá\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Để phân công một dự án\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"To request suggestions\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"To demonstrate a product\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"To provide an evaluation\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"To assign a project\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại sao người đàn ông lại lên lịch cuộc họp?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Why did the man schedule the meeting?\"}]]}]]}"
+                }
+              },
+              "id": "1785",
+              "audioResourceId": "2mBx8lXsiG6QWVFPlvU7M"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Bạn cần phải nắm rõ thông tin đi kèm với từ chỉ thời tương lai trong lời của người đàn ông. Ở phần giữa, bằng mẫu câu thể hiện kế hoạch \"}],[\"text\",{\"value\":\"‘We’re going to~’\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\", người đàn ông cho biết kế hoạch của công ty là tạo một trang Web mới để cung cấp các công thức nấu ăn và mẹo nấu ăn nên đáp án đúng là (D) Mở một trang web.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) Họ có cung cấp \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"các công thức nấu ăn và mẹo nấu ăn nhưng không phải để xuất bản sách mà để đăng lên một trang web nên đây là đáp án sai.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với câu hỏi liên quan đến kế hoạch tương lai, gợi ý thường sẽ nằm ở phần sau của cuộc hội thoại. Các cụm từ \\\"I'll~, I'm going to~, I must / should / have to~, I'd like to~, be supposed to\\\" thường sẽ đi kèm với đáp án đúng.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nâng cấp sản phẩm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thay đổi tên thương hiệu\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Xuất bản sách nấu ăn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mở một trang web\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Upgrade a product\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Change a brand’s name\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Publish a cookbook\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Launch a Web site\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Theo người đàn ông, công ty dự định sẽ làm gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"According to the man, what does the company plan to do?\"}]]}]]}"
+                }
+              },
+              "id": "1786",
+              "audioResourceId": "2mBx8lXqqqp4i1lKnRXAJ"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ khóa là \\\"thứ Sáu\\\" nên bạn cần phải tìm thông tin liên quan đến thời điểm này. Ở phần sau, bằng mẫu câu yêu cầu \"}],[\"text\",{\"value\":\"\\\"please think it over and let me know by Friday ~\\\"\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\", người đàn ông yêu cầu những người phụ nữ hãy suy nghĩ kỹ và cho biết trước thứ Sáu xem họ có muốn làm hay không. Có thể thấy họ cần phải quyết định trước thứ Sáu nên đáp án đúng là (B)\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Danh từ trong câu hỏi chủ yếu là từ khóa, và các từ khóa này thường là thời gian, con số, danh từ riêng hay so sánh nhất. Sau khi đã tìm được từ khóa, bạn chỉ cần nghe rõ nội dung liên quan đến nó là được.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tập hợp một nhóm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Xác nhận một quyết định\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Báo cáo giờ làm thêm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Chuẩn bị một số vật liệu\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Put together a team\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Confirm a decision\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Report overtime hours\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Prepare some materials\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những người phụ nữ nên làm gì vào thứ Sáu?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What should the women do by Friday?\"}]]}]]}"
+                }
+              },
+              "id": "1787",
+              "audioResourceId": "2mBx8lZTS7k4uSqJ0sCIR"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 1-3 refer to the following conversation with three speakers.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Thanks for coming in, ladies. There’s a special project that I’d like you to take on. It’s regarding our company’s new line of cookware.\\nB: The one that’ll be sold in stores this fall?\\nA: That’s right. We’re going to create a new Web site devoted to providing recipes and cooking tips.\\nC: I see. So, the site would be mostly informational, but it would be sponsored by our brand.\\nA: Exactly. Now, since this project would involve a lot of overtime hours, please think it over and let me know by Friday whether or not you want to do it.\\nB: Okay. It sounds like it has a lot of potential.\\nC: I agree.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Cảm ơn vì mọi người đã đến. Có một dự án đặc biệt mà tôi muốn giao cho các bạn đảm nhận. Nó liên quan đến dòng dụng cụ nấu nướng mới của công ty chúng ta.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Đó là sản phẩm sẽ được bán trong các cửa hàng vào mùa thu này sao?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Đúng vậy. Chúng ta sẽ tạo một trang Web mới để cung cấp các công thức nấu ăn và mẹo nấu ăn.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"C: Tôi hiểu rồi. Vậy nội dung trang web sẽ chủ yếu là thông tin, nhưng nó sẽ được tài trợ bởi thương hiệu của chúng ta.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Chính xác. Vì dự án này sẽ đòi hỏi rất nhiều giờ làm thêm nên mọi người hãy suy nghĩ kỹ và cho tôi biết trước thứ Sáu xem bạn có muốn tham gia hay không nhé.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Được rồi. Có vẻ như nó có rất nhiều tiềm năng.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"C: Tôi đồng ý.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nam người Mỹ | Giọng nữ người Anh | Giọng nữ người Mỹ\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"take on đảm nhiệm~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"regarding [Giới từ] liên quan tới~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"cookware [Danh từ] dụng cụ nấu ăn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"create [Động từ] tạo ra~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"devoted to hiến dâng, tận tụy trong việc~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"provide [Động từ] cung cấp~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"recipe [Danh từ] công thức nấu ăn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"mostly [Trạng từ] chủ yếu, phần lớn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"informational [Tính từ] cung cấp thông tin\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be sponsored by được tài trợ bởi~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"since [Liên từ] vì~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"involve [Động từ] bao gồm, liên quan đến~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"overtime hours làm thêm giờ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"think A over nghĩ kỹ về A\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"whether or not có hay không\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It sounds like Có vẻ như~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"potential [Danh từ] tiềm năng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"assign [Động từ] sắp xếp, sắp đặt\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"demonstrate [Động từ] diễn tả, chứng minh\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"evaluation [Danh từ] đánh giá\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"publish [Động từ] xuất bản\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"launch [Động từ] bắt đầu\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"confirm [Động từ] xác nhận\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "audioResourceId": "2mBx8k0tf4565hwZZTtXc"
+            }
+          ]
+        }
+      },
+      "chapter": "request",
+      "chapterList": [
+        "request",
+        "subject",
+        "detail"
+      ],
+      "subject": "lc",
+      "part": "p3",
+      "skill": "listening",
+      "dalc": "test_practice",
+      "pronounce": "amm",
+      "partList": [
+        "p3"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 35,
+          "second": 8,
+          "nano": 201000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p3-320",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 35,
+          "second": 8,
+          "nano": 201000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

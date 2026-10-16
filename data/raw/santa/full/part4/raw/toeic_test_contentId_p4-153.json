@@ -1,0 +1,402 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần đầu của hội thoại, người nói đã hoan nghênh mọi người đến \"}],[\"text\",{\"value\":\"Joen Books và ở phần sau còn nói rằng họ có thể mua sách ở đằng trước cửa hàng. Vậy\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\" nên đáp án đúng là (B) Tại một hiệu sách.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phần đầu đoạn văn thường nhắc đến nghề nghiệp một người hay địa điểm diễn ra tình huống, câu hỏi về chủ đề này cũng hay xuất hiện nên bạn phải nắm được thông tin về mục đích, địa điểm, người nói hoặc người nghe ở phần đầu của đoạn.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại một thư viện\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại một hiệu sách\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại một giảng đường\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại một lễ trao giải\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a library\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a bookstore\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a lecture hall\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At an awards ceremony\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Lời giới thiệu diễn ra ở đâu?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Where is the introduction taking place?\"}]]}]]}"
+                }
+              },
+              "id": "2670",
+              "audioResourceId": "2mBxG3Yhc4XCaYhaVTT9y"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần giữa của hội thoại, bằng câu \"}],[\"text\",{\"value\":\"\\\"Today, he will be discussing the art of writing historical biographies\\\"\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\", người nói đã cho biết ông Lamps sẽ thảo luận về nghệ thuật viết tiểu sử lịch sử nên đáp án đúng là (B) Cách để viết một cuốn sách.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) Ông Lamps không giảng về cách trở thành tác giả mà giảng về kỹ năng viết sách nên đáp án này sai.\",\"weight\":\"#w400\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cách tạo ra một bài phát biểu hiệu quả\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cách để viết một cuốn sách\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cách để trở thành một tác giả\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cách để tạo một bài thuyết trình hay\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"How to make an effective speech\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"How to write a book\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"How to become an author\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"How to make a good presentation\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Chủ đề bài giảng của ông Lamps là gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is the topic of Mr. Lamps’s talk?\"}]]}]]}"
+                }
+              },
+              "id": "2671",
+              "audioResourceId": "2mBxG3YkLPKW42nNHO9aw"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ khóa là \\\"\"}],[\"text\",{\"value\":\"after the lecture\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"\\\" nên bạn cần phải tìm thông tin liên quan đến thời điểm trước và sau bài giảng. Ở phần sau của hội thoại, bằng mẫu câu đề nghị/yêu cầu \\\"\"}],[\"text\",{\"value\":\"I would like to remind you~ after the lecture\\\"\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\", người nói đã nhắc nhở về buổi ký tặng sau bài giảng nên đáp án đúng là (A).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với câu hỏi liên quan đến kế hoạch tương lai, gợi ý thường sẽ nằm ở phần sau của cuộc hội thoại. Các cụm từ \\\"I'll~, I'm going to~, I must / should / have to~, I'd like to~, be supposed to, Next is~\\\".\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Một buổi ký tặng sách sẽ diễn ra.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Một giải thưởng sẽ được trao.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Một bản sao miễn phí của một cuốn sách sẽ được tặng.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Bữa tối sẽ được phục vụ.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A book signing will take place.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A prize will be given.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A free copy of a book will be given away.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Dinner will be served.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Theo người nói, sau khi bài giảng kết thúc sẽ diễn ra điều gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"According to the speaker, what will happen after the lecture?\"}]]}]]}"
+                }
+              },
+              "id": "2672",
+              "audioResourceId": "2mBxG3YjfO04E0VFWHp2p"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 1-3 refer to the following introduction.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Good morning and welcome to Joen Books. This is one of our lecture series in which we invite famous authors to share their thoughts with us. We're very lucky to have Mr. Frank Lamps join us today. Mr. Lamps has won several awards for his nonfiction works, including the Reader's Prize for his bestselling book, Into the Blue. Today, he will be discussing the art of writing historical biographies. Before Mr. Lamps gets started, I would like to remind you of the book signing that will take place after the lecture. If you don't have anything for him to sign, you may purchase one of his books at the front of the store. And now, here's Mr. Lamps.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Chào buổi sáng và chào mừng bạn đến với Joen Books. Đây là một trong những loạt bài giảng của chúng tôi, trong đó chúng tôi mời các tác giả nổi tiếng đến để cùng lắng nghe họ chia sẻ suy nghĩ của mình. Thật vinh dự khi có ông Frank Lamps tham gia cùng chúng ta ngày hôm nay. Ông Lamps đã giành được một số giải thưởng cho các tác phẩm phi giả tưởng của mình; bao gồm cả Reader's Prize cho cuốn sách bán chạy nhất của ông, Into the Blue. Hôm nay, ông ấy sẽ thảo luận về nghệ thuật viết tiểu sử lịch sử. Trước khi ông Lamps bắt đầu, tôi muốn nhắc các bạn về buổi ký tặng sách sẽ diễn ra sau bài giảng. Nếu không có sẵn sách để ông ấy ký, bạn có thể mua một trong những cuốn sách của ông ấy ở phía trước cửa hàng. Và bây giờ, xin hãy đón chào ông Lamps.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nam người Mỹ\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"latest [Tính từ] mới nhất\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"author [Danh từ] tác giả\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"share [Động từ] chia sẻ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"several [Tính từ] một vài\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"award [Danh từ] giải thưởng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"nonfiction [Danh từ] phi giả tưởng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"biography [Danh từ] tiểu sử\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"remind A of B nhắc nhở A về B\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"take place xảy ra\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"purchase [Động từ] mua\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "audioResourceId": "2mBxG1zUKzecT6UAZJquc"
+            }
+          ]
+        }
+      },
+      "chapter": "future",
+      "chapterList": [
+        "future",
+        "introduction",
+        "information",
+        "subject"
+      ],
+      "subject": "lc",
+      "part": "p4",
+      "section": 0,
+      "skill": "listening",
+      "dalc": "test_practice",
+      "sectionList": [
+        "introduction_general"
+      ],
+      "pronounce": "amm",
+      "partList": [
+        "p4"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 34,
+          "second": 52,
+          "nano": 769000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p4-153",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 34,
+          "second": 52,
+          "nano": 769000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nam người Úc\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"fan[Danh từ] Quạt, quạt thông gió\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"chain[Danh từ] Dây xích, dây sắt \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"doorway[Danh từ] Cửa ra vào\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đáp án đúng là đáp án (C), miêu tả chính xác vị trí của khu vực chỗ ngồi là ở gần nước.\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Phân tích đáp án sai\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) sai do trong bức ảnh không có fans.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(B) sai do không có người thực hiện hành động trong bức ảnh.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) sai do không thể xác nhận chain, doorway trong bức ảnh\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những chiếc quạt được đặt trên sàn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thức ăn được bày trên một số bàn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Khu vực chỗ ngồi ở gần nước. \"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Sợi dây xích được treo trước cửa ra vào.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Fans have been placed on the floor.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Some tables are being set for a meal.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A seating area is located near the water.*\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A chain hangs in front of a doorway.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"figure\",{\"element\":[\"image\",{\"src\":\"https://d1owkbafuno0br.cloudfront.net/image/jpg/p1-945.jpg.original.w1000?cache_key=1577328621712\",\"alt\":\"\",\"width\":100,\"height\":75}]}]]}"
+                }
+              },
+              "id": "18541",
+              "audioResourceId": "2mBwK8cbekeb6bpFoqHo3"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{}"
+            }
+          },
+          "explanations": [],
+          "passages": []
+        }
+      },
+      "chapter": "sight",
+      "chapterList": [
+        "sight"
+      ],
+      "subject": "lc",
+      "part": "p1",
+      "section": 0,
+      "skill": "listening",
+      "dalc": "test_practice",
+      "sectionList": [
+        "sight_general"
+      ],
+      "pronounce": "aum",
+      "partList": [
+        "p1"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 36,
+          "second": 24,
+          "nano": 550000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p1-945",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 36,
+          "second": 24,
+          "nano": 550000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

@@ -1,0 +1,408 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong đoạn đầu, người nói đã tự giới thiệu bản thân bằng câu ‘this is Penelope calling from ~’. Sau đó bằng câu ‘~, but it seems as though one of ~’, người nói đã đưa ra vấn đề là \\\"một trong các bài báo chưa được gửi đến\\\". Đây là cách nói gián tiếp để giục người nghe gửi lại bài báo, do đó đáp án đúng là (C).\",\"weight\":\"#w400\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) Trong bài có nhắc tới thông tin ngày tháng nhưng cuộc điện thoại không có mục đích là để thay đổi ngày nộp nên đáp án này sai. \",\"weight\":\"#w400\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với câu hỏi về ý đồ hoặc mục đích gọi điện thoại, đáp án đúng thường sẽ xuất hiện ở phần đầu cùng với các cụm 'I'd like to~, I want to~, I need to~, I'll~, I'm calling ~'.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngày nộp đã bị đổi.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tài khoản ngân hàng không còn hoạt động.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Một bài báo vẫn chưa được gửi đến.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Địa chỉ email không đúng.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A submission date has changed.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A bank account is no longer active.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"An article has not been received.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"An e-mail address is incorrect.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại sao người nói lại gọi đến?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Why is the speaker calling?\"}]]}]]}"
+                }
+              },
+              "id": "3063",
+              "audioResourceId": "2mBxGogKWGOFjORzSTxm7"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mỗi đáp án là tên một bài báo khác nhau nên bạn cần phải dự đoán đoạn văn sẽ gợi ý thông tin về ngày tháng và thông tin giá tiền đi kèm trong bảng. \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong phần giữa, chúng ta có thể biết là người nghe dự toán 200 đô la cho một bài báo được gửi đến vào ngày 30/10 qua câu ‘You are expected to be paid 200 dollars for ~’. Nhưng qua câu ‘but I don’t think ~’ đằng sau đó, người nói cho biết bài báo này vẫn chưa được gửi đến. Bài báo được gửi đến vào ngày 30/10 và có giá 200 đô la ứng với đáp án (D).\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Khi các đáp án là ngày tháng, thời gian, địa điểm hoặc con số, bạn cần phải tìm đáp án đúng dựa vào thông tin tương ứng trong bảng.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo làm vườn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thú cưng trong nhà\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Lập kế hoạch bữa ăn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Sửa chữa đơn giản\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Gardening Tips\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Pets at Home\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Planning Meals\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Simple Repairs\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nhìn vào bảng. Bài báo nào cần được xác nhận thanh toán?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Look at the graphic. For which article does payment need to be confirmed?\"}]]}]]}"
+                }
+              },
+              "id": "3064",
+              "audioResourceId": "2mBxGogEh1uO3ozLtoTSc"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với câu hỏi về hành động tương lai của người nói, bạn cần phải lưu ý đến những mẫu câu thời tương lai để tìm ra câu trả lời đúng. Trong phần cuối, người nói dùng mẫu câu giả định ‘If you have a problem ~, and I’ll tell you how to get ~’ và nói rằng mình có thể chỉ cho người nghe cách tới văn phòng giữa phố. Do đó, đáp án đúng ở đây là (A).\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với câu hỏi liên quan đến hành động tương lai, gợi ý thường sẽ nằm ở phần sau của cuộc hội thoại. Các cụm từ liên quan đến thời điểm, đề xuất hoặc đảo ngược 'I'll~, I'm going to~, I have to/must/should ~, I want/need to ~, I'd like to ~' thường sẽ đi kèm với đáp án đúng.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Chỉ đường\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Gửi hóa đơn thanh toán\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Kéo dài thời hạn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Hiệu đính vài tác phẩm\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Provide directions\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Send an invoice\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Extend a deadline\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Proofread some work\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người nói nói mình có thể làm gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does the speaker say she can do?\"}]]}]]}"
+                }
+              },
+              "id": "3065",
+              "audioResourceId": "2mBxGogLqjFJjqEq4tTF3"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 1-3 refer to the following telephone message and payment summary.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Hi, Roger, this is Penelope calling from Good Life Magazine. I have your payment summary here for the articles you contributed in October, but it seems as though one of those articles you listed has not yet been received. You are expecting to be paid 200 dollars for an article submitted on October 30, but I don’t think you’ve sent it to us yet by e-mail. Can you please get this to me as soon as possible? I won’t be able to authorize your payment until we get it. If you have a problem with your e-mail account, let me know and I’ll tell you how to get to our offices downtown. You could bring it down in person, if that’s easier for you.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Xin chào, Roger, tôi là Penelope gọi từ Tạp chí Good Life. Tôi đang giữ bản tóm tắt các khoản thanh toán cho các bài báo bạn đã gửi vào tháng 10, nhưng có vẻ như một trong những bài báo bạn liệt kê trong đó vẫn chưa được gửi đến. Dự kiến là bạn sẽ được trả 200 đô la cho một bài báo được gửi vào ngày 30 tháng 10, nhưng tôi không nghĩ là bạn đã gửi cho chúng tôi qua e-mail. Bạn có thể vui lòng gửi lại bài báo cho tôi càng sớm càng tốt được không? Tôi chỉ có thể cho phép thanh toán sau khi đã nhận được bài báo đó. Nếu bạn gặp sự cố với tài khoản e-mail của mình, hãy cho tôi biết và tôi sẽ chỉ đường cho bạn đến văn phòng của chúng tôi ở trung tâm thành phố. Bạn có thể trực tiếp mang bài báo tới đây nếu như vậy tiện hơn.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nữ người Mỹ\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"payment [Danh từ] tiền (phí) được trả\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"summary [Danh từ] tóm tắt\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"submission [Danh từ] nộp\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"article [Danh từ] bài báo (báo, tạp chí)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"gardening [Danh từ] công việc làm vườn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"repair [Danh từ] sửa chữa\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"contribute [Động từ] đóng góp (bài báo,...)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"it seems as though có vẻ như là~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"list [Động từ] liệt kê, ghi là~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"expect to do dự đoán gì đó\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"submit [Động từ] nộp~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"get A to B đưa A cho B\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"as soon as possible càng sớm càng tốt\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"not A until B phải B thì mới A\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"authorize [Động từ] cho phép\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"account [Danh từ] tài khoản\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"how to do cách để~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"get to tới~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"in person trực tiếp tới\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{}"
+                }
+              },
+              "audioResourceId": "2mBxGnFOxBwOdBtdiQDw6"
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Payment Summary (October)\",\"weight\":\"#w400\"}]]}],[\"table\",{\"body\":{\"rows\":[{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Submission Date\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Article Title                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       \",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Payment\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"October 5\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Gardening Tips\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"$300\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"October 13\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Pets at Home\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"$150\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"October 17\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Planning Meals\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"$275\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"October 30\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Simple Repairs\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"$200\",\"weight\":\"#w400\"}]]}]]}]}]}}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        }
+      },
+      "chapter": "future",
+      "chapterList": [
+        "future",
+        "telephone",
+        "subject",
+        "visual"
+      ],
+      "subject": "lc",
+      "part": "p4",
+      "skill": "listening",
+      "dalc": "test_practice",
+      "pronounce": "amw",
+      "partList": [
+        "p4"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 36,
+          "second": 10,
+          "nano": 379000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_m1-p4-009",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 36,
+          "second": 10,
+          "nano": 379000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

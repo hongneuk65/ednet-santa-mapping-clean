@@ -1,0 +1,7 @@
+# Preserve byte-exact research snapshots and SHA256 across Windows/Linux.
+data/** -text
+outputs/** -text
+notebooks/*.ipynb -text
+*.py text eol=lf
+*.md text eol=lf
+*.toml text eol=lf

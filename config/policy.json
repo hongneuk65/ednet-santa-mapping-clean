@@ -1,0 +1,15 @@
+{
+  "version":"fresh-coarse-v1",
+  "min_ratio":0.8,
+  "min_observed_fraction":0.6,
+  "min_questions_for_supported":20,
+  "min_bundles_for_supported":10,
+  "small_sample_below":5,
+  "near_tie_margin":0.1,
+  "profile_similarity":0.85,
+  "min_cluster_questions":5,
+  "min_cluster_bundles":3,
+  "max_cluster_members":6,
+  "attribute_reservation_ratio":0.95,
+  "notes":"Fixed exploratory policy; labels are candidates, not independently validated gold. No old tag dictionary or hard-coded EdNet tag membership."
+}

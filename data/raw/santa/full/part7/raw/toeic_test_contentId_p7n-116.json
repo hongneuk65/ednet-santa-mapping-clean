@@ -1,0 +1,281 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Biểu hiện này có nghĩa là ‘đó không phải là nội dung bắt buộc’ để trả lời cho câu hỏi xác nhận việc có biết về sự kiện đào tạo hay không trong câu ‘You know there is a staff meeting event ~’ của Velazquez ở ngay phía trước. Ở tin nhắn sau thông qua câu ‘~ finalizing the agreement with Mr. White is ~’  có thể thấy rằng việc kết thúc hợp đồng quan trọng hơn nên việc tham dự buổi đào tạo là không cần thiết. Vì thế đáp án đúng là đáp án (D).\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đây là câu hỏi nắm bắt ý nghĩa của một câu văn cho sẵn nên cần nhanh chóng tìm ra phần có câu văn đó rồi phân tích ý nghĩa chính xác của nó thông qua mối quan hệ ý nghĩa với câu trước và câu sau.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ấy nghĩ rằng không cần thiết thêm nhiều nội dung cụ thể hơn nữa.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ấy đang có đủ tài liệu liên quan đến việc được phân công cho mình.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ấy nghĩ rằng Velazquez và Wintle không cần gặp nhau.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ấy định không tham gia buổi đào tạo.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He believes it is unnecessary to add more details.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He has enough documents for his assignment.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He thinks Ms. Velazquez does not have to meet Mr. Wintle.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He does not plan to attend a training session.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vào lúc 12 giờ 41 phút chiều, khi Deng viết tin nhắn “it’s not mandatory”, điều đó có ý nghĩa là gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 12:41 P.M., what does Mr. Deng mean when he writes, “it’s not mandatory”?\"}]]}]]}"
+                }
+              },
+              "id": "7277",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vì đây là câu hỏi về nội dung Deng đề xuất nên trước tiên cần tìm biểu hiện thể hiện ý đề xuất hoặc nhờ vả trong tin nhắn của Deng. Trong tin nhắn lúc 12 giờ 44 phút của Deng, cùng với biểu hiện ‘I can let you know ~’, Deng đã đề xuất sẽ báo toàn bộ công việc cho đến khi kết thúc ngày làm việc. Có nghĩa là sẽ truyền đạt tin tức mới, nên đáp án đúng là đáp án (A).\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đối với các câu hỏi: lời đề nghị, yêu cầu là gì thường có câu trả lời đúng ở dạng ‘you(we) should / could / can / had better’ hoặc ‘would you like?, (please) + động từ nguyên thể ~’ nên cần lưu ý những câu văn có xuất hiện những biểu hiện này để trả lời câu hỏi.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Sẽ nói cho Velazquez tin tức mới\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Gửi bản photo hợp đồng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trực tiếp gặp Velazquez\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Liên lạc với người tổ chức hội nghị\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Give Ms. Velazquez an update\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Send a copy of a contract\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Meet Ms. Velazquez in person\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Contact a conference organizer\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Deng đề xuất sẽ làm gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does Mr. Deng offer to do?\"}]]}]]}"
+                }
+              },
+              "id": "7278",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions  refer to the following text message chain.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"dialog-list\",{\"children\":[{\"children\":[[\"text\",{\"value\":\"Mia Velazquez　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Cuộc họp ở văn phòng của Hayden Wintle thế nào rồi? Liệu anh ta có kí tên vào bản hợp đồng không?\"}],[\"text\",{\"value\":\"　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"[12:36 chiều] \",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Liang Deng　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Mọi thứ có vẻ rất tốt. Bây giờ chúng tôi đang ra ngoài ăn trưa, sau đó sẽ trở lại văn phòng của anh ấy và thảo luận kĩ hơn nội dung cụ thể.\"}],[\"text\",{\"value\":\"　[12:38 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Mia Velazquez　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tôi cứ tưởng là bạn sẽ kết thúc lúc 1 giờ. Bạn biết việc có sự kiện đào tạo nhân viên ở trung tâm hội nghị Galea vào lúc 2 giờ chứ?\"}],[\"text\",{\"value\":\"　[12:39 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Liang Deng　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Vâng, nhưng nó không bắt buộc.\"}],[\"text\",{\"value\":\"　[12:41 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Mia Velazquez　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tôi nghĩ rằng việc hoàn tất hợp đồng với ông Wintle là quan trọng hơn\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:42 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Liang Deng　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Đó cũng là điều tôi nghĩ. Tôi sẽ báo lại cho bạn tình hình trước khi kết thúc ngày làm việc hôm nay.\"}],[\"text\",{\"value\":\"　[12:44 chiều]\",\"weight\":\"#w700\"}]]}]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"How did A go? : A thế nào rồi?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"sign the contract: Kí tên vào hợp đồng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"look + tính từ : Nhìn giống ~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"promising [Tính từ]: Có điềm tốt, có triển vọng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"discuss [Động từ]: Thảo luận\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"details [Danh từ]: Nội dung chi tiết\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"further [Trạng từ]: Sâu hơn, thêm một tầng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"get back to : Trở lại với~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"by [Giới từ]: Đến (thời hạn)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"mandatory [Tính từ]: Là nghĩa vụ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"finalize [Động từ]: Xác nhận cuối cùng~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"agreement [Danh từ]: (Bản) hợp đồng, (bản) thỏa thuận\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"exactly [Trạng từ]: Một cách chính xác\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"turn out: Lộ ra, được làm sáng tỏ\"}]]}]]}]}",
+                  "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"dialog-list\",{\"children\":[{\"children\":[[\"text\",{\"value\":\"Mia Velazquez　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"How did the meeting at Hayden Wintle’s office go? Do you think he will sign the contract?\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:36 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Liang Deng　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Things are looking very promising. We’ve gone to lunch now, and we’ll discuss the details further when we get back to his office.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:38 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Mia Velazquez　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"I thought you would be done by 1. You know there is a staff training event at the Galea Conference Center at 2, right?\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:39 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Liang Deng　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Yes, but it’s not mandatory.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:41 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Mia Velazquez　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"I guess finalizing the agreement with Mr. Wintle is far more important.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:42 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Liang Deng　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"That’s exactly what I was thinking. I can let you know how everything turns out by the end of the day.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[12:44 P.M.]\",\"weight\":\"#w700\"}]]}]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        }
+      },
+      "chapter": "connection",
+      "chapterList": [
+        "connection",
+        "passage_text",
+        "context_rc",
+        "single_passage",
+        "request"
+      ],
+      "subject": "rc",
+      "part": "p7",
+      "skill": "reading",
+      "dalc": "test_practice",
+      "partList": [
+        "p7"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 36,
+          "second": 10,
+          "nano": 383000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p7n-116",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 36,
+          "second": 10,
+          "nano": 383000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

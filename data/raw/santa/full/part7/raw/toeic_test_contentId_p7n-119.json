@@ -1,0 +1,281 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Có thể tìm thấy manh mối ở phần Stiles nói rằng việc chuẩn bị cho buổi tiệc gần như đã hoàn thành trong tin nhắn đầu tiên. Trong các đáp án, việc lập danh sách khách mời chưa được đề cập đến nên đáp án đúng là đáp án (D).\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) Việc đặt hoa xuất hiện ở tin nhắn lúc 4 giờ 03 phút ‘I’ve placed the order for the floral centerpieces ~’\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(B) Việc lựa chọn thực đơn có thể được xác nhận thông qua câu trả lời ở tin nhắn sau câu hỏi ‘~ what food is going to be served to our guests?’\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) Việc đặt nơi tổ chức sự kiện xuất hiện ở tin nhắn lúc 4 giờ 01 phút ‘I’ve booked the ballroom ~’.\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vì đây là câu hỏi phải tìm thông tin trong toàn bộ bài đọc nên sẽ thuận lợi hơn nếu bạn trả lời câu hỏi này sau khi làm các câu hỏi khác trước để nắm được nội dung và gợi ý của toàn đoạn văn.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đặt hoa\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Lựa chọn thực đơn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đặt địa điểm tổ chức sự kiện\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tạo danh sách khách mời\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ordering some flowers\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Selecting a menu\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Reserving a venue\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Creating a guest list\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Việc nào là việc chưa hoàn thành?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is NOT indicated as a completed task?\"}]]}]]}"
+                }
+              },
+              "id": "7283",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Câu này có nghĩa là ‘hãy làm như thế đi’, là câu trả lời cho tin nhắn trước đó của Moretti nói rằng ‘If we want to ~, the shop owner offered to ~’, có nghĩa là trong trường hợp muốn thêm hoa trang trí, có thể được nhận thêm 3 bó hoa to với giá 20 đô la mỗi bó. Trong tình huống này, Let’s take it thể hiện ý nghĩa tích cực ‘hãy làm như thế đi’ nên nó có nghĩa là ‘việc nhận được giao dịch tốt’. Đáp án đúng là đáp án (B).\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đây là câu hỏi nắm bắt ý nghĩa của một câu văn cho sẵn nên cần nhanh chóng tìm ra phần có câu đó rồi phân tích ý nghĩa chính xác của nó thông qua mối quan hệ ý nghĩa với câu trước và câu sau.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Họ có thể cung cấp bàn của riêng họ\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nghĩ rằng có thể nhận được giao dịch tốt.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phải tự di chuyển đồ vật.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Muốn tiết kiệm thời gian.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"They can supply their own table.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He thinks they can get a good deal.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"They should transport items themselves.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He wants to save some time.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Lúc 4 giờ 05 phút, khi Stiles viết tin nhắn “Let’s take it”, điều đó có nghĩa là gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 4:05 P.M., what does Mr. Stiles suggest when he writes, “Let’s take it”?\"}]]}]]}"
+                }
+              },
+              "id": "7284",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions  refer to the following text message chain.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"dialog-list\",{\"children\":[{\"children\":[[\"text\",{\"value\":\"Dustin Stiles \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Xin chào Gianna. Tôi nghĩ rằng việc chuẩn bị cho buổi tiệc vào ngày 6 tháng 9 đã gần như hoàn thành rồi. Tôi đã đặt trước phòng tiệc ở Richland Hall rồi\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:01 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Gianna Moretti \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tốt quá! Và tôi cũng đã đặt hoa trang trí đặt giữa bàn ăn rồi, tổng là 25. Nếu chúng ta muốn thêm hoa trang trí, chủ cửa hàng đề nghị cung cấp cho chúng ta 3 bó hoa lớn để ở bàn phía trước với giá 20 đô la mỗi bó.\"}],[\"text\",{\"value\":\"[4:03 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Dustin Stiles \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Hãy làm như thế đi.\"}],[\"text\",{\"value\":\"[4:05 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Gianna Moretti \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tôi biết rồi. Lát nữa tôi sẽ gọi điện lại cho người đó. Đã quyết định món ăn sẽ mời khách chưa ạ? \"}],[\"text\",{\"value\":\"[4:08 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Dustin Stiles \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Vâng, điều đó đã xong. Chúng ta hãy gặp nhau vào một lúc nào đó trong tuần này để sắp xếp các thư mời. \"}],[\"text\",{\"value\":\"[4:09 chiều]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Gianna Moretti \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Được ạ.\"}],[\"text\",{\"value\":\"[4:12 chiều]\",\"weight\":\"#w700\"}]]}]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"nearly [Phó từ] Gần\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be ready for: Chuẩn bị xong ~\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"banquet [Danh từ] Buổi tiệc\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"book [Dộng từ] Đặt trước\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"ballroom [Danh từ] Phòng tiệc\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"place an order: Đặt hàng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"floral [Tính từ] Làm bằng hoa\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"centerpiece [Danh từ] Vật trang trí giữa bàn ăn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"in total: Tổng, cộng tất cả\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"add to : Thêm vào, bổ sung\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"offer to do: Đề nghị việc gì\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"bouquet [Danh từ] Bó hoa\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"call A back: Gọi điện lại cho A\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"decide [Dộng từ] Quyết định\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"finalize [Dộng từ] Hoàn thành\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"sort out: Xử lí, giải quyết\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"invitation [Danh từ] (Giấy) mời\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Sounds good to me: Được ạ.\"}]]}]]}]}",
+                  "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"dialog-list\",{\"children\":[{\"children\":[[\"text\",{\"value\":\"Dustin Stiles\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Hi, Gianna. I think we’re nearly ready for the banquet on September 6. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"I’ve booked the ballroom at Richland Hall.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:01 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Gianna Moretti\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Great! And \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"I’ve placed the order for the floral centerpieces\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\", twenty-five in total. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"If we want to add to it, the shop owner offered to give us three large bouquets for the front table for just $20 each.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:03 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Dustin Stiles\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Let’s take it.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:05 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Gianna Moretti\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Okay. I’ll call her back later today. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Did you decide what food is going to be served to our guests?\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:08 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Dustin Stiles\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Yes, that’s finalized.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\" Let’s meet sometime this week to sort out the invitations.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:09 P.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Gianna Moretti\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Sounds good to me.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"[4:12 P.M.]\",\"weight\":\"#w700\"}]]}]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        }
+      },
+      "chapter": "true_not_true",
+      "chapterList": [
+        "true_not_true",
+        "passage_text",
+        "true_not_true",
+        "single_passage",
+        "context_rc"
+      ],
+      "subject": "rc",
+      "part": "p7",
+      "skill": "reading",
+      "dalc": "test_practice",
+      "partList": [
+        "p7"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 33,
+          "second": 21,
+          "nano": 240000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p7n-119",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 33,
+          "second": 21,
+          "nano": 240000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

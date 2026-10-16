@@ -1,0 +1,600 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đáp án đúng là (A) do không có nội dung nào nói rằng thành viên có thể đăng kí trở thành diễn giả khách mời.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(B) Ở phần sau của văn bản đầu tiên, thông qua câu ‘To register and see ~, please go to ~’ và ‘Registration can also be made by ~’, có thể biết được rằng: có thể đăng kí qua online hoặc điện thoại.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) Ở phần đầu của văn bản đầu tiên, có đề cập đến việc hội thảo được tổ chức vào thứ 7 thông qua nội dung ‘Saturday, December 22’.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) Ở phần giữa của văn bản đầu tiên, thông qua câu văn bên dưới ‘All members of the ISA are ~’, có thể thấy thành viên phải đóng 75 đô la và người không phải thành viên phải đóng 150 đô la.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đây là câu hỏi yêu cầu tìm đáp án có nội dung không đúng với thông tin được đề cập đến trong bài đọc. Trong trường hợp này nên xác định nội dung của từng đáp án, rồi tìm thông tin có liên quan đến nội dung đó trong bài đọc, sau đó đối chiếu từng nội dung để trả lời câu hỏi.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Các thành viên có thể đăng kí trở thành diễn giả khách mời.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Có 2 cách đăng kí hội thảo.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Được tổ chức vào cuối tuần.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Người không phải là thành viên phải đóng nhiều phí hơn thành viên để được tham gia\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Members may apply to become guest speakers.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"There are two ways to sign up for it.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is going to be held on a weekend.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Non-members must pay more than members to attend.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Điều gì không được đề cập đến khi nói về hội thảo?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is NOT mentioned about the conference?\"}]]}]]}"
+                }
+              },
+              "id": "7993",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"‘Châu Âu’ được đề cập đến trong câu hỏi là từ khóa của vấn đề. Trong bảng của bài đọc thứ 2, tiêu đề bài phát biểu của Caroline Davis là ‘Trends in the European Shipbuilding Market’ nên đáp án đúng là (D).\",\"weight\":\"#w400\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trường hợp trong câu hỏi xuất hiện từ khóa cụ thể như danh từ riêng, địa điểm, ngày tháng, nhân vật, nội dung đi kèm..., việc tìm ra câu văn có xuất hiện từ khoá tương đương rồi phân tích manh mối sẽ giúp tiết kiệm thời gian.\",\"weight\":\"#w400\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Walter Parcells\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cliff Stuart\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Teresa Arlington\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Caroline Davis\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Walter Parcells\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cliff Stuart\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Teresa Arlington\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Caroline Davis\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ai sẽ nói về Châu Âu?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Who is going to speak about Europe?\"}]]}]]}"
+                }
+              },
+              "id": "7994",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"‘company president’ được đề cập đến trong câu hỏi là trọng tâm vấn đề và trong phần giữa của văn bản đầu tiên, thông qua câu ‘Raymond Carter, the CEO of ~’, có thể biết rằng Raymond Carter là giám đốc điều hành của Brockton Shipyards. Trong bài đọc thứ 2, Raymond Carter sẽ phát biểu từ 9 giờ sáng đến 10 giờ sáng nên đáp án đúng là (A).\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"9 giờ sáng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"10 giờ sáng\",\"weight\":\"#w700\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"10 giờ 30 sáng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"4 giờ 30 chiều\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 9:00 A.M.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 10:00 A.M.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 1:30 P.M.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 4:30 P.M.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giám đốc của một công ty sẽ phát biểu khi nào\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What time will a company president speak?\"}]]}]]}"
+                }
+              },
+              "id": "7995",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"‘Phòng 311’ được đề cập đến trong câu hỏi đã xuất hiện ở phần giữa của văn bản. Thông qua nội dung phía sau câu ‘Due to a sudden increase in ~, the room in which ~’, có nói rằng do việc gia tăng đột ngột sự quan tâm đến sự kiện nên phòng thuyết trình được chuyển từ tầng 2 lên phòng 311 tầng 3. Không gian dự kiến ban đầu có thể xác định qua nội dung ‘The job fair will be held in the adjoining room ~’ ở phía cuối bài đọc thứ 2, là giảng đường ở tầng 2. Qua đó có thể đoán được rằng phòng 311 có thể chứa được nhiều người hơn so với giảng đường, nên đáp án đúng là (D). \"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) và (B) sai do ở bà văn bản thứ 2 có nói rằng phòng 204 là phòng bên cạnh giảng đường nên giảng đường ở tầng 2, ở bài đọc thứ 3, có nói rằng phòng 311 ở tầng 3.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thông thường từ khóa xuất hiện trong câu hỏi và từ khóa này được lặp lại trong toàn bài, lúc này trung bình có 3 câu lặp lại từ khóa đó ở trước và sau, nên đây là dạng so sánh từ đáp án rồi tìm đáp án đúng. Đặc biệt với trường hợp của danh từ riêng, sau khi lặp lại một lần, nó sẽ được biến đổi sang một đại từ khác để nhắc lại. Ví dụ, nếu từ khóa là tên người, có một câu xuất hiện tên đầu tiên rồi sau đó các câu văn gợi ý sẽ sử dụng đại từ như ‘he’.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giảng đường nằm cạnh phòng đó.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nằm ở tầng 1.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cung cấp bữa ăn phụ ở trong đó.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Chứa được nhiều người hơn so với giảng đường.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"The auditorium is located beside it.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is located on the first floor.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Refreshments will be served in it.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It has a bigger capacity than the auditorium.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nội dung nào đúng khi nói về phòng 311?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is suggested about room 311?\"}]]}]]}"
+                }
+              },
+              "id": "7996",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mahler được đề cập đến ở câu hỏi xuất hiện trong bảng của văn bản thứ 2, là người phát biểu chủ đề ‘Advanced Materials and Their Uses’. Và cũng được đề cập đến ở phần sau của văn bản cuối cùng. Thông qua câu ‘In addition, Mr. Torbin Mahler has announced that ~’, có nói rằng Marhler sẽ phát miễn phí mỗi người một quyển sách về chủ đề phát biểu của mình. Qua đó có thể thấy rằng ông ấy đã viết sách về chủ đề phát biểu nên đáp án đúng là (A).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) sai do người phát biểu cuối cùng ở hội thảo là Cliff Stuart.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thông thường từ khóa xuất hiện trong câu hỏi và từ khóa này được lặp lại trong toàn bài, lúc này trung bình có 3 câu lặp lại từ khóa đó ở trước và sau, nên đây là dạng so sánh từ đáp án rồi tìm đáp án đúng. Đặc biệt với trường hợp của danh từ riêng, sau khi lặp lại một lần, nó sẽ được biến đổi sang một đại từ khác để nhắc lại. Ví dụ, nếu từ khóa là tên người, có một câu xuất hiện tên đầu tiên rồi sau đó các câu văn gợi ý sẽ sử dụng đại từ như ‘he’.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Viết sách về vật liệu tiên tiến.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Là giảng viên trường đại học.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Làm việc cùng công ty với Davis.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Là diễn giả cuối cùng của hội thảo.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He authored a work on advanced materials.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He is a professor at a university.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He works at the same firm as Ms. Davis.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He will be the final speaker at the conference.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Điều gì đúng khi nói về Mahler?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is indicated about Mr. Mahler?\"}]]}]]}"
+                }
+              },
+              "id": "7997",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions  refer to the following notice, schedule, and announcement.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thông báo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"International Shipbuilders Association (ISA) tổ chức hội thảo một ngày tại New York vào thứ bảy, ngày 22 tháng 12. Hi vọng tất cả các thành viên ISA sẽ tham dự sự kiện với mức phí 75 đô la. Những người không phải là thành viên có thể tham dự với mức phí150 đô la.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngoài hội chợ việc làm, sẽ có một số diễn giả khách mời trong cả ngày. Diễn giả chính của sự kiện là Raymond Carter, Giám đốc điều hành của Brockton Shipyards. Dự kiến ​​ông sẽ thảo luận về thực trạng của ngành và những gì sẽ xảy ra trong năm tới. Để đăng ký và xem toàn bộ lịch trình hội nghị, vui lòng truy cập www.isa.org/conference. Bạn cũng có thể đăng ký bằng cách gọi đến (908) 494-7482 và yêu cầu nói chuyện với Mary Summers.\"}]]}]]}]}",
+                  "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"                                          \",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"  International Shipbuilders Association\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Hội thảo mùa đông hàng năm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thứ 7, ngày 22 tháng 11\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"table\",{\"body\":{\"rows\":[{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thời gian\",\"weight\":\"#w700\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Diễn giả\",\"weight\":\"#w700\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Tiêu đề\",\"weight\":\"#w700\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"9:00 sáng – 10:00 sáng\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Raymond Carter\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngành đóng tàu trong năm tới\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"10:00 sáng – 11:00 sáng\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Walter Parcells\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đóng tàu quân sự\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"11:00 sáng – 12:00 sáng\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Caroline Davis\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Xu hướng thị trường đóng tàu Châu Âu\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"12:00 chiều – 1:30 chiều\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"N/A\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giờ ăn trưa\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1:30 chiều – 2:00 chiều\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ming Chun\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngành đóng tàu ở châu Á: Có đáng đầu tư không?\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2:00 chiều – 3:30 chiều\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Teresa Arlington\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những gương mặt mới trong ngành\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3:30 chiều – 4:30 chiều\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Torbin Mahler\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vật liệu tiên tiến và công dụng\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"4:30 chiều – 5:45 chiều\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Andrea Wilson\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Công ty cổ phần TMA: Một câu chuyện \\bđáng cảnh báo\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"5:45 chiều – 6:00 chiều\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cliff Stuart\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"background\":\"\",\"children\":[[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Kết luận / ISA Business\"}]]}]]}]}]}}],[\"paragraph\",{\"align\":\"#justify\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Xin lưu ý rằng lịch trình này có thể thay đổi. Tất cả các bài phát biểu sẽ được tổ chức trong giảng đường ở Trung tâm Hội nghị Packwood. Hội chợ việc làm sẽ được tổ chức tại phòng liền kề (phòng 204) từ 10 giờ sáng đến 6 giờ chiều. Vẫn có các gian hàng dành cho các công ty quan tâm tham gia. Vui lòng gọi đến số điện thoại (908) 494-7482 để biết thêm thông tin.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tất cả những người tham dự hội thảo ISA dự kiến ​​vào ngày 22 tháng 12 xin lưu ý. Phòng thuyết trình đã được thay đổi do sự quan tâm đến hội thảo tăng lên đột ngột. Nó không còn ở tầng 2 nữa mà đã được chuyển lên phòng 311 tầng 3. Và ông Mahler thông báo rằng tất cả những người tham dự sẽ nhận được một cuốn sách mới nhất của ông ấy, cuốn sách đó liên quan đến chủ đề bài phát biểu của ông. Người tham dự có thể nhận được sách khi ký tên vào danh sách khi có mặt.\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"conference [Danh từ] Buổi hội thảo \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"fee [Danh từ] Phí, chi phí \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"nonmember [Danh từ] Không phải là hội viên\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"guest speaker: Diễn giả khách mời \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"job fair: Hội chợ việc làm \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"keynote speaker: Diễn giả chính\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"State [Danh từ] Trạng thái\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" industry [Danh từ] Ngành, công nghiệp \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"register [Động từ] Đăng kí\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"complete [Tính từ] Hoàn thành      \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"trend [Danh từ] Xu hướng, khuynh hướng \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"newcomer [Danh từ] Người mới gia nhập\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" material [Danh từ] Nguyên liệu, vật liệu\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"cautionary [Tính từ] Tính cảnh báo, tính cảnh cáo \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"concluding [Tính từ ] thuộc về kết luận\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" remark [Danh từ] Sự phát ngôn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be subject to: Trở thành đối tượng \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"auditorium [Danh từ] Giảng đường\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" adjoining [Tính từ] Bên cạnh, liền kề\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"attendee [Danh từ] Người tham gia, người tham dự \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"scheduled for: Dự kiến \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"in addition: Thêm vào\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"copy [Danh từ] Bản in, cuốn, quyển (sách)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"most recent: Gần đây nhất \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"topic [Danh từ] Chủ đề\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"sign in: Ký tên khi đến nơi \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"venue [Danh từ] Địa điểm\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"NOTICE\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"The International Shipbuilders Association (ISA) is going to be holding a one-day conference in New York City on Saturday, December 22.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\" \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"All members of the ISA are welcome to attend the event for a $75 fee. Non\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"-\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"members may attend by paying a $150 fee.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\" There will be several guest speakers throughout the day as well as a job fair. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"The keynote speaker for the event is Raymond Carter, the CEO of Brockton Shipyards.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\" He is expected to discuss the state of the industry and what is expected to happen during the coming year. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"To register and to see the complete schedule for the conference, please go to www.isa.org/conference. Registration can also be made by calling (908) 494-7482 and asking to speak with Mary Summers.\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"International Shipbuilders’ Association\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Annual Winter Conference\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Saturday, December 22\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0}],[\"table\",{\"body\":{\"rows\":[{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Time\",\"weight\":\"#w700\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Speaker\",\"weight\":\"#w700\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#center\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Title\",\"weight\":\"#w700\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"9:00 A.M. – 10:00 A.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Raymond Carter\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"The Next Year in the Shipbuilding Industry\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"10:00 A.M. – 11:00 A.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Walter Parcells\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Military Shipbuilding\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"11:00 A.M. – 12:00 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Caroline Davis\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trends in the European Shipbuilding Market\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"12:00 P.M. – 1:30 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"N/A\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Lunch\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1:30 P.M. – 2:00 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ming Chun\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Asian Shipbuilding: Is It Worth Investing In?\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2:00 P.M. – 3:30 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Teresa Arlington\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Newcomers in the Industry\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3:30 P.M. – 4:30 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Torbin Mahler\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Advanced Materials and Their Uses\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"4:30 P.M. – 5:45 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Andrea Wilson\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"TMA, Inc.: A Cautionary Tale\",\"weight\":\"#w400\"}]]}]]}]},{\"cells\":[{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"5:45 P.M. – 6:00 P.M.\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cliff Stuart\",\"weight\":\"#w400\"}]]}]]},{\"align\":\"#left\",\"colspan\":1,\"rowspan\":1,\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Concluding Remarks / ISA Business\",\"weight\":\"#w400\"}]]}]]}]}]}}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Please note that this schedule is subject to change. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"All speeches will be given in the auditorium in the Packwood Convention Center. The job fair will be held in the adjoining room (room 204) and will take place from 10:00 A.M. to 6:00 P.M.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\" There are still booths available for interested companies. Call (908) 494-7482 for more information.\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            },
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Attention, all attendees of the ISA conference scheduled for December 22. \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"Due to a sudden increase in interest in the conference, the room in which the speeches will be given has been changed. It will no longer be on the second floor but has been moved to the third floor to room 311\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\". \",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"In addition, Mr. Mahler has announced that all attendees will receive a free copy of his most recent book, which is about the topic of his speech\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\". Attendees can pick it up when they sign in upon arriving at the venue.\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        }
+      },
+      "chapter": "imply",
+      "chapterList": [
+        "imply",
+        "passage_notice",
+        "passage_form",
+        "true_not_true",
+        "triple_passage",
+        "detail"
+      ],
+      "subject": "rc",
+      "part": "p7",
+      "skill": "reading",
+      "virtualExam": "mini_virtual_exam_vn_1",
+      "dalc": "test_practice",
+      "partList": [
+        "p7"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 34,
+          "second": 52,
+          "nano": 723000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p7t-028",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 34,
+          "second": 52,
+          "nano": 723000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

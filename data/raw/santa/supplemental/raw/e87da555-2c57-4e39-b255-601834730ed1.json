@@ -1,0 +1,611 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "vocabulary": null,
+        "lessonSet": null,
+        "question": null,
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở đầu đoạn văn, có nội dung đây là công ty cung cấp thức ăn cho một buổi lễ kỷ niệm của một công ty Marketing 'We provided food for an important celebration at a marketing firm' nên đáp án chính xác là (C).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong câu hỏi về loại hình công ty, cần chú ý đến những manh mối chỉ sản phẩm chủ yếu hay dịch vụ cung cấp, lĩnh vực hoạt động.  \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Công ty Marketing\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"\\bNhà sản xuất đồ nội thất\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Hãng phục vụ đồ ăn\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Công ty vận chuyển\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A marketing agency\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A furniture manufacturer\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A catering firm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A shipping company\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cô Davi có nhiều khả năng làm việc cho loại công ty nào nhất?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"For what type of business does Ms. Davi most likely work?\"}]]}]]}"
+                }
+              },
+              "id": "e08e8d17-3f0c-4604-bb9b-aebc2b75a8cd",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần sau của đoạn văn, có nội dung 'they are very simple to fold and transport, thanks to the convenient carrying handles', tức là bàn gấp rất dễ mang theo nhờ có quai xách, vậy đáp án đúng là (C).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong câu hỏi liên quan đến điểm hài lòng với sản phẩm, cần tìm những thông tin liên quan đến điểm mạnh của sản phẩm. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó có giá phải chăng.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Nó có phong cách hấp dẫn.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó dễ dàng mang, vác.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Kích cỡ có thể điều chỉnh.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is reasonably priced.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It has an attractive style.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is easy to carry.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Its size can be adjusted.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cô Davi thích gì ở bàn gấp Apextech?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does Ms. Davi like about the Apextech folding table?\"}]]}]]}"
+                }
+              },
+              "id": "ae42614d-2b4c-4e1f-bf51-77a9b5346a2e",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Câu văn phía trên bài tỏ sự lo lắng về trọng lượng của đài phun sô cô la, vậy nên ta dễ dàng đoán được nó là câu làm cụ thể hơn lo lắng về trọng lượng đồ ăn, nên sẽ đứng sau câu thể hiện sự lo lắng đó. Vậy nên đáp án (C) là đáp án đúng. \"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong trường hợp chọn câu phù hợp điền vào chỗ trống, bạn nên tập trung vào việc tìm câu phù hợp với mạch văn của câu trước và sau, và bạn cũng có thể chú ý các manh mối từ mạo từ, danh từ cụ thể, đại từ và liên từ. Ở câu phía trên, trên câu văn được hỏi xuất hiện những từ như 'particularly' và 'weight' nên chúng ta có thể đoán được nó sẽ là câu văn miêu tả cụ thể hơn nội dung của câu văn phía trước. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[1]\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[2]\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[3]\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[4]\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[1]\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[2]\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[3]\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"[4]\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong các vị trí được đánh dấu [1], [2], [3], và [4], vị trí nào phù hợp nhất với câu văn dưới đây?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"“Chúng tôi đặc biệt lo lắng về trọng lượng của đài phun sô cô la.”\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"In which of the positions marked [1], [2], [3], and [4] does the following sentence best belong?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"“We were particularly concerned about the weight of the chocolate fondue fountain.” \"}]]}]]}"
+                }
+              },
+              "id": "1d289685-1e52-44c8-8be7-5c11ebbba3aa",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "rrtV2SectionsJson": "",
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2InlineElementsJson": "",
+              "html": "",
+              "text": "",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 161-163 refer to the following review.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "631c6540-c754-426c-9742-9f10a919a4b8",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"https://www.apextechtables.com/reviews\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Xếp hạng (5 là điểm tối đa) ★★★★★\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Công ty của tôi gần đây đã mua một số bàn gấp Apextech và sử dụng chúng, và chúng tôi rất ấn tượng với sản phẩm này! - [1] -. Chúng tôi đã cung cấp thức ăn cho một lễ kỷ niệm quan trọng tại một công ty marketing, và có rất nhiều món ăn cần được đưa ra trưng bày cho khách. - [2] -. Thức ăn cho bữa tiệc công ty chiếm nhiều diện tích, một số món khá nặng. - [3] -. Bàn gấp Apextech cung cấp không gian trưng bày rộng rãi và có thể chịu trọng lượng nặng mà không gặp vấn đề gì. Không chỉ vậy, chúng còn rất đơn giản trong việc gấp gọn và vận chuyển nhờ có quai xách tiện lợi. - [4] -. Chúng tôi đang có kế hoạch mua thêm loại bàn này trong tương lai gần.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"- Anita Davi, ngày 19 tháng 9\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "254678a0-b49f-420c-bbe3-f36d7d0c2720",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"rating [Danh từ] đánh giá, đẳng cấp\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"recently [Trạng từ] gần đây\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"purchase [Danh từ] mua\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"several [Tính từ] một vài\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"folding [Tính từ] gấp lại được\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be impressed with: bị ấn tượng với\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"provide [Động từ] cung cấp\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"celebration [Danh từ] lễ kỷ niệm, chúc mừng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"firm [Danh từ] hãng, công ty\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"numerous [Tính từ] nhiều, số lượng lớn\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"put out: lấy ra\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"on display: trưng bày\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"banquet [Danh từ] bữa tiệc\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"take up: chiếm (không gian)\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"ample [Tính từ] đủ, thừa thãi\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"room [Danh từ] (khi không có mạo từ) không gian\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"carry [Động từ] mang vác, chứa đựng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"load [Danh từ] (cho hành lý,..) trọng tải, hàng hoá\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"with no issues at all: không có vấn đề gì\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"not only A, but [also] B: không chỉ A, mà còn B\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"thanks to [Giới từ] nhờ có\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"convenient [Tính từ] tiện lợi\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"plan to do: có kế hoạch làm gì\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "06d38070-7949-4fb4-9bd1-76b2bdc09cb8",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"https://www.apextechtables.com/reviews\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Rating (out of five) \"}],[\"text\",{\"value\":\"★★★★★\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"My company recently purchased several Apextech folding tables and used them, and we were very impressed with this pro\"}],[\"text\",{\"value\":\"duct! ― [1] ―. We provided food for an important celebration at a marketing firm, and there were numerous dishes that needed to be put out on display for the guests. ― [2] ―. The food for the company banquet took up a lot of space, and some dishes were qui\"}],[\"text\",{\"value\":\"te heavy. ― [3] ―. The Apextech folding tables provided ample display room and carried the heavy load with no issues at all. Not only that, but they are very simple to fold and transport, thanks to the convenient carrying handles. ― [4] ―. We are planning \"}],[\"text\",{\"value\":\"to purchase more of these tables in the near future. \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"― Anita Davi, 19 September\"}]]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        },
+        "lesson": null
+      },
+      "questionCount": null,
+      "chapter": "single_passage",
+      "wordPosList": null,
+      "chapterList": [
+        "single_passage",
+        "passage_review",
+        "imply",
+        "detail",
+        "sentence_insertion"
+      ],
+      "subject": "rc",
+      "part": "p7",
+      "eqId": null,
+      "section": null,
+      "wordPos": null,
+      "targetWords": null,
+      "skill": "reading",
+      "virtualExam": "full_virtual_exam_kr_1",
+      "v0Voca": null,
+      "dalc": "test_practice",
+      "vocaOngoingStep": null,
+      "migrated": null,
+      "sectionList": null,
+      "contentType": "question",
+      "subjectList": null,
+      "level": null,
+      "lessonGroup": null,
+      "questionSetName": null,
+      "difficulty": null,
+      "vocaGroup": null,
+      "contentTypeList": null,
+      "filename": "[Full_test_1] PART 7_211025.zip",
+      "lessonGroupV2": null,
+      "preventRecommendation": true,
+      "pronounce": null,
+      "word": null,
+      "partList": [
+        "p7"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT",
+    "toeicSpeakingPartContent": null,
+    "gtelpContent": null
+  },
+  "baseContent": {
+    "updatedTime": "2025-03-07T09:22:04.282Z",
+    "domain": "TOEIC",
+    "contentId": "e87da555-2c57-4e39-b255-601834730ed1",
+    "createdTime": "2023-04-10T13:34:52.859Z",
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

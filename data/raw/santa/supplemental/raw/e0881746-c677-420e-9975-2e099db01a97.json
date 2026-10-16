@@ -1,0 +1,635 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "vocabulary": null,
+        "lessonSet": null,
+        "question": null,
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đáp án (D) đúng, khi bắt đầu cuộc trò chuyện, người phụ nữ đã thông báo về buổi định hướng của nhân viên phục vụ và nhân viên bếp mới (the orientation of our new wait staff and kitchen workers).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong câu hỏi về địa điểm của người nói, cần chú ý những từ vựng chỉ nghiệp vụ, dịch vụ cung cấp, sản phẩm, bộ phận làm việc để tìm ra đáp án. Theo đó, cần đọc trước đáp án và không bỏ lỡ thông tin quan trọng khi hội thoại bắt đầu. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại một nhà máy\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại một cửa hàng kim khí\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tại ngân hàng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở một nhà hàng\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a factory\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a hardware store\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a bank\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At a restaurant\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cuộc trò chuyện có nhiều khả năng diễn ra nhất ở đâu?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Where is the conversation most likely taking place?\"}]]}]]}"
+                }
+              },
+              "id": "c45f7ab9-19cb-4b7f-880d-51ce332eb08d",
+              "audioResourceId": "84e09e73-6e20-477d-a4da-9fd294796f1e"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giữa cuộc hội thoại, người đàn ông yêu cầu người phụ nữ đến tủ đựng hồ sơ và kiểm tra ngăn kéo bên dưới ngăn kéo chứa các phiếu đánh giá (check the drawer below the evaluation forms). Ngăn được đánh dấu bằng Evaluation Forms trong hình ảnh là Drawer 2, vì vậy (C)Drawer 3 bên dưới là câu trả lời đúng. \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong \\bcâu hỏi có hình ảnh mình hoạ, trong đó trình bày sơ đồ bố cục hoặc bản đồ đường phố, các câu hỏi được đưa ra theo cách nắm được vị trí và hướng di chuyển cụ thể nên bạn cần nắm được những tên riêng, hướng di chuyển, vị trí và những từ liên quan như động từ, trạng từ, cụm giới từ. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngăn kéo 1\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngăn kéo 2\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngăn kéo 3\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ngăn kéo 4\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Drawer 1\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Drawer 2\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Drawer 3\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Drawer 4\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nhìn vào hình ảnh. Người đàn ông chỉ người phụ nữ đến ngăn kéo nào?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Look at the graphic. Which drawer does the man direct the woman to?\"}]]}]]}"
+                }
+              },
+              "id": "2615329c-4909-475e-8b4f-ec42fac001b6",
+              "audioResourceId": "8a980795-4980-4b49-ab0d-d3540e77d83b"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở cuối đoạn hội thoại, người phụ nữ đã yêu cầu người đàn ông bỏ lịch trình và chương trình làm việc (get rid of these schedules and agendas), vì vậy câu trả lời đúng là (C) Discard some paperwork. \"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong trường hợp câu hỏi khuyến nghị / đề xuất / yêu cầu, cần phải đọc câu hỏi trước để hiểu rõ ràng ai là người đưa ra khuyến nghị / đề xuất / yêu cầu cho ai, và cần tìm manh mối thông qua những biểu hiện thể hiện sự khuyến nghị / đề xuất / yêu cầu.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tổ chức một cuộc họp\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tạo lịch trình làm việc\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Bỏ đi một số giấy tờ\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đào tạo nhân viên mới\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Organize a meeting\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Create a work schedule\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Discard some paperwork\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Train new employees\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người phụ nữ yêu cầu người đàn ông làm gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does the woman ask the man to do?\"}]]}]]}"
+                }
+              },
+              "id": "e59b099d-d9a1-45b0-8a9d-c7c6be02b177",
+              "audioResourceId": "a56a6551-3825-479f-bdfe-93792815ccee"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "rrtV2SectionsJson": "",
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2InlineElementsJson": "",
+              "html": "",
+              "text": "",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 62-64 refer to the following conversation and file cabinet.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "9fca4732-cdf3-4fd9-a606-6e54a526b4e1",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Allan, I'm preparing for the orientation of our new wait staff and kitchen workers, but I can’t find some of the materials I need. Do you have any idea where we keep the company manuals?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Sure. Go over to the file cabinet, and check the drawer below t\"}],[\"text\",{\"value\":\"he evaluation forms. We moved the manuals into there last month.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Thanks! Now I see them. There’re also a lot of old work schedules and meeting agendas in the back of this drawer, too.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Yeah, when we moved offices, a lot of things got mixed up, and we \"}],[\"text\",{\"value\":\"haven’t had time to sort it yet.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Well, can you get rid of these schedules and agendas by the end of today? Let’s try to get everything neat and organized again.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "9be05b6f-3dea-4fe1-ac44-4b00c48679e5",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Allan, tôi đang chuẩn bị cho buổi định hướng của nhân viên phục vụ và nhân viên nhà bếp mới, nhưng tôi không thể tìm thấy một số tài liệu tôi cần. Bạn có biết nơi chúng tôi lưu giữ sổ tay hướng dẫn của công ty không?\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Chắc chắn rồi. Đi tới tủ tài liệu, và kiểm tra ngăn kéo bên dưới các biểu mẫu đánh giá. Chúng tôi đã chuyển các tài liệu hướng dẫn vào đó vào tháng trước.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Cảm ơn! Bây giờ tôi nhìn thấy chúng rồi. Ngoài ra còn có rất nhiều lịch làm việc cũ và lịch trình buổi họp ở phía sau ngăn kéo này.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"B: Đúng vậy, khi chúng tôi chuyển văn phòng, rất nhiều thứ lẫn lộn và chúng tôi chưa có thời gian để sắp xếp.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Chà, bạn có thể loại bỏ những lịch trình và chương trình làm việc này vào cuối ngày hôm nay không? Hãy cố gắng sắp xếp lại mọi thứ gọn gàng và ngăn nắp.\"}],[\"image\",{\"src\":\"riiid://resources/7c16052d-29e3-40c1-a222-e3a70585d27f\",\"alt\":\"\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "5540404a-2fce-4dec-b44e-0c8223dcb671",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nữ người Mỹ| Giọng nam người Úc\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "850022ff-3953-41c6-be4a-dbe040db48b1",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"prepare for: chuẩn bị cho \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"wait staff: nhân viên phục vụ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"material [Danh từ] vật liệu, nguyên liệu\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"manual [Danh từ] sách hướng dẫn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"drawer [Danh từ] \\bngắn kéo\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"below [Giới từ] ở dưới\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"evaluation [Danh từ] (phiếu) đánh giá\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"form [Danh từ] biểu mẫu\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"agenda [Danh từ] lịch trình của buổi họp, hội thảo\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"get mixed up: bị trộn lẫn\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"sort [Động từ] phân loại\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"get rid of: loại bỏ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"by [Giới từ] cho đến, trước (thời hạn)\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"try to do: cố gắng làm gì\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"get + tính từ: trở nên như thế nào \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"neat [Tính từ] gọn gàng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"organized [Tính từ] có tổ chức\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "35bea944-9da9-4edd-bd88-46ba914f7cdb",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"image\",{\"src\":\"riiid://resources/28c177c3-bc61-44c7-b7d0-b46d66551cec\",\"alt\":\"\"}]]}]]}"
+                }
+              },
+              "audioResourceId": "418dab91-df82-46b4-b413-8b0f6ef636db"
+            }
+          ]
+        },
+        "lesson": null
+      },
+      "questionCount": null,
+      "chapter": null,
+      "wordPosList": null,
+      "chapterList": [
+        "information",
+        "visual",
+        "request"
+      ],
+      "subject": "lc",
+      "part": "p3",
+      "eqId": null,
+      "section": null,
+      "wordPos": null,
+      "targetWords": null,
+      "skill": "listening",
+      "virtualExam": "full_virtual_exam_kr_2",
+      "v0Voca": null,
+      "dalc": "test_practice",
+      "vocaOngoingStep": null,
+      "migrated": null,
+      "sectionList": null,
+      "contentType": "question",
+      "subjectList": null,
+      "level": null,
+      "lessonGroup": null,
+      "questionSetName": null,
+      "difficulty": null,
+      "vocaGroup": null,
+      "contentTypeList": null,
+      "filename": "[Full_test_2] PART 3_211023.zip",
+      "lessonGroupV2": null,
+      "preventRecommendation": true,
+      "pronounce": "amw",
+      "word": null,
+      "partList": [
+        "p3"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT",
+    "toeicSpeakingPartContent": null,
+    "gtelpContent": null
+  },
+  "baseContent": {
+    "updatedTime": "2025-03-07T09:25:17.375Z",
+    "domain": "TOEIC",
+    "contentId": "e0881746-c677-420e-9975-2e099db01a97",
+    "createdTime": "2023-04-10T13:34:25.542Z",
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

@@ -1,0 +1,775 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "vocabulary": null,
+        "lessonSet": null,
+        "question": null,
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong đoạn văn đầu tiên tóm tắt về công việc, nội dung ‘You will primarily assist the directors of various productions’ được đề cập cho thấy công việc chính sẽ là trợ giúp các đạo diễn nên (D) là đáp án đúng.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Quản lý ngân sách của một studio\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân vai diễn viên trong các chương trình truyền hình\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thiết kế bối cảnh cho phim\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cung cấp hỗ trợ cho các đạo diễn\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Managing a studio’s budget\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Casting actors in TV shows\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Designing sets for films\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Providing support for directors\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vị trí này chủ yếu liên quan đến loại công việc nào?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What type of work does the position mainly involve?\"}]]}]]}"
+                }
+              },
+              "id": "eda57504-eabc-4592-8ed3-3be212f6a1b8",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở mục số 3 trong số những nhiệm vụ công việc, ta biết rằng vị trí này sẽ phải hỗ trợ nhóm sản xuất lắp đặt đèn chiếu ‘Assisting the production team to set up lights’ nên đáp án đúng là (B). \"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Với những văn bản liệt kê nhiều hạng mục về quy định, điều kiện, điều khoản thì khả năng cao sẽ là có câu hỏi chi tiết các hạng mục này nên cần tìm và đối chiếu các đáp án với thông tin trong bài. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những người muốn tài trợ cho việc sản xuất phim\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những người chịu trách nhiệm bố trí ánh sáng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Những người đang tìm kiếm cơ hội việc làm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người phụ trách các chiến dịch marketing\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"People interested in financing film productions\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"People responsible for arranging lighting\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"People seeking employment opportunities\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"People in charge of marketing campaigns\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ai sẽ chủ yếu tương tác với trợ lý sản xuất nhất?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Who will the production assistant most likely interact with?\"}]]}]]}"
+                }
+              },
+              "id": "61d1c10d-410a-434c-af01-aab7e93df155",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở câu cuối của đoạn văn cuối, ‘Must be in decent physical condition as lifting of moderately heavy objects may be required on occasion’ cho thấy sự lao động chân tay đôi khi được đòi hỏi khi mang vác một số vật nặng nên (A) là đáp án đúng. \\b\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) sai vì ở phần đầu của email đã nhắc tới vị trí của công ty ở ‘in central London’ ta biết rằng studio nằm ở trong London. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó đòi hỏi một số lao động thể chất.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó gồm cả công việc vào cuối tuần.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đó là một công việc bán thời gian.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó có trụ sở bên ngoài London.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      0
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It requires some physical labor.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It involves weekend work.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is a part-time job.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is based outside of London.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Điều gì đúng về vị trí công việc này?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is indicated about the position?\"}]]}]]}"
+                }
+              },
+              "id": "d1ab39e8-f2c7-4710-bb6b-e9c9aa7462be",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải \",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở đoạn văn cuối, có nội dung đề cập đến khả năng đa nhiệm được yêu cầu ‘multi-tasking ability are key requirements’ nên (B) là đáp án đúng.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) sai vì hiểu biết về thuật ngữ trong ngành được ưu tiên nhưng không phải bắt buộc (Knowledge of industry terminology ~ but not strictly required).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở câu hỏi về một trong số những điều kiện được yêu cầu, chúng ta cần đọc trước nội dung của các câu trả lời và đối chiếu với bài viết cho sẵn. \"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Một bằng cấp học thuật phù hợp\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Khả năng thực hiện nhiều công việc đồng thời\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Kiến thức về các thuật ngữ ngành sản xuất \"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tối thiểu hai năm kinh nghiệm\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A relevant academic qualification\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"An ability to perform multiple tasks simultaneously\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A knowledge of production industry jargon\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A minimum of two years of experience\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Một trong những yêu cầu được liệt kê của công việc là gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is one listed requirement of the job?\"}]]}]]}"
+                }
+              },
+              "id": "2f47b15f-d6e8-4319-926c-fb02fbd1f888",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "rrtV2SectionsJson": "",
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2InlineElementsJson": "",
+              "html": "",
+              "text": "",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 168-171 refer to the following job description.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "65ca17e0-9755-4895-b45b-9c09062b5c68",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"VỊ TRÍ TUYỂN DỤNG\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trợ lý sản xuất\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tóm tắt công việc:\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Chúng tôi đang tìm kiếm một Trợ lý sản xuất để phục vụ trên phim trường tại một studio lớn ở trung tâm London. Bạn sẽ chủ yếu hỗ trợ các đạo diễn của dự án khác nhau bằng cách thực hiện nhiều công việc lặt vặt và chuyển tiếp tin nhắn giữa các thành viên trong đoàn làm phim.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nhiệm vụ chính:\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1. Chuẩn bị và phân phối các thủ tục giấy tờ như kịch bản và các bản layout bố trí \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2. Vận hành các thiết bị văn phòng thông thường như máy photocopy, máy scan và máy fax\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3. Hỗ trợ nhóm sản xuất lắp đặt đèn, camera và đạo cụ khi cần thiết\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"4. Đảm bảo rằng tất cả các thành viên trong đoàn làm phim tuân thủ lịch trình và thời hạn nghiêm ngặt\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"5. Thực hiện các công việc hành chính như trả lời điện thoại và điền hồ sơ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"6. Lên lịch họp giữa \\bđạo diễn và thành viên đoàn làm phim\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"7. Lên lịch làm việc hàng ngày cho đạo diễn và đảm bảo rằng lịch trình được tuân thủ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Yêu cầu công việc:\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Tối thiểu một năm kinh nghiệm làm trợ lý sản xuất và có đam mê với lĩnh vực điện ảnh và truyền hình. Thái độ làm việc nhiệt tình, sẵn sàng làm việc trong môi trường làm việc năng động, nhiệt huyết. Kỹ năng tổ chức xuất sắc và khả năng đa nhiệm là những yêu cầu quan trọng. Kiến thức về thuật ngữ ngành được ưu tiên, nhưng không bắt buộc. Phải ở trong tình trạng thể chất tốt vì thỉnh thoảng có thể phải mang vác các vật nặng vừa phải. Phải có khả năng làm việc nhóm và hoàn thành nhiệm vụ một cách độc lập.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "2ed62543-8fc7-4ae7-9f19-048c44c16900",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"job vacancy: vị trí đang tuyển, còn trống\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"assistant [Danh từ] trợ lý\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"summary [Danh từ] bản tóm tắt\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"seek [Động từ] tìm kiếm\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"serve [Động từ] làm việc, phục vụ\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"primarily [Trạng từ] chủ yếu\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"various [Tính từ] đa dạng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"production [Danh từ] dự án sản xuất (phim, kịch,..)\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"run an errand: làm việc vặt\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"a wide variety of: nhiều loại, đa dạng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"relay [Động từ] truyền đạt\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"primary [Tính từ] chủ yếu\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"distribute [Động từ] phân phát\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"script [Danh từ] kịch bản\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"layout [Danh từ] bản layout, bản bố trí bố cục\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"operate [Động từ] vận hành\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"equipment [Danh từ] thiết bị\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"set up: lắp đặt, chuẩn bị\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"props [Danh từ] đạo cụ\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"ensure that: đảm bảo rằng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"adhere to: tuân thủ theo\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"strict [Tính từ] nghiêm ngặt\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"deadline [Danh từ] thời hạn\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"administrative [Tính từ] thuộc về hành chính\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"create [Động từ] tạo ra\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"follow [Động từ] đi theo\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"job requirements: yêu cầu công việc\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"a minimum of: tối thiểu\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"passion [Danh từ] đam mê\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"enthusiastic [Tính từ] nhiệt huyết\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"attitude [Danh từ] thái độ\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"willingness to do: sự sẵn lòng làm gì\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"dynamic [Tính từ] năng động\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"organizational [Tính từ] thuộc về tổ chức\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"multi-tasking ability: khả năng đa nhiệm\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"knowledge [Danh từ] tri thức\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"terminology [Danh từ] từ chuyên ngành\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"preferred [Tính từ] ưa chuộng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"strictly [Trạng từ] một cách nghiêm ngặt\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"decent [Tính từ] ổn, tử tế\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"physical [Tính từ] thuộc về thể chất\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"moderately [Trạng từ] vừa phải\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"on occasion: thỉnh thoảng\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be adept at -ing: thành thạo việc gì\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"independently [Trạng từ] một cách độc lập\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "d788f56d-bbae-4b14-8be8-012d53e577ed",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"JOB VACANCY \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Production Assistant \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Job Summary: \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"We are seeking a Production Assistant to serve on film and television sets at a major studio in central London. \"}],[\"text\",{\"value\":\"You will prim\"}],[\"text\",{\"value\":\"arily assist the directors of various productions by running a wide variety of errands and relaying messages between crew members\"}],[\"text\",{\"value\":\".\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Primary Job Duties: \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"1. Preparing and distributing paperwork such as scripts and set layouts \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"2. Operating common office equipment like copiers, scanners and fax machines\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"3. \"}],[\"text\",{\"value\":\"Assisting the production team to set up lights, cameras, and props where needed\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"4. Ensuring that all production team members adhere to strict schedules and deadlines\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"5. Performing administrative work such as answering phones and filing documents\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"6. Schedul\"}],[\"text\",{\"value\":\"ing meetings between directors and crew members\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"7. Creating daily work schedules for directors and ensuring that schedules are followed\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Job Requirements: \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A minimum of one year of experience as a production assistant and a passion for the film and TV indu\"}],[\"text\",{\"value\":\"stry. An enthusiastic attitude and a willingness to work in a high-energy, dynamic work environment. Excellent organizational skill and \"}],[\"text\",{\"value\":\"multi-tasking ability are key requirements\"}],[\"text\",{\"value\":\". Knowledge of industry terminology is preferred, but not strictly required. \"}],[\"text\",{\"value\":\"M\"}],[\"text\",{\"value\":\"ust be in decent physical condition as lifting of moderately heavy objects may be required on occasion\"}],[\"text\",{\"value\":\". Must be equally adept at working as a team player and completing tasks independently.\"}]]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        },
+        "lesson": null
+      },
+      "questionCount": null,
+      "chapter": "single_passage",
+      "wordPosList": null,
+      "chapterList": [
+        "single_passage",
+        "passage_notice",
+        "detail",
+        "detail",
+        "true_not_true",
+        "detail"
+      ],
+      "subject": "rc",
+      "part": "p7",
+      "eqId": null,
+      "section": null,
+      "wordPos": null,
+      "targetWords": null,
+      "skill": "reading",
+      "virtualExam": "half_virtual_exam_kr_1",
+      "v0Voca": null,
+      "dalc": "test_practice",
+      "vocaOngoingStep": null,
+      "migrated": null,
+      "sectionList": null,
+      "contentType": "question",
+      "subjectList": null,
+      "level": null,
+      "lessonGroup": null,
+      "questionSetName": null,
+      "difficulty": null,
+      "vocaGroup": null,
+      "contentTypeList": null,
+      "filename": "[Half_test_1] PART 7_211025.zip",
+      "lessonGroupV2": null,
+      "preventRecommendation": true,
+      "pronounce": null,
+      "word": null,
+      "partList": [
+        "p7"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT",
+    "toeicSpeakingPartContent": null,
+    "gtelpContent": null
+  },
+  "baseContent": {
+    "updatedTime": "2025-03-07T09:22:28.449Z",
+    "domain": "TOEIC",
+    "contentId": "d0d88fff-223d-4998-b8ce-e2735f16145e",
+    "createdTime": "2023-04-10T13:34:52.886Z",
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

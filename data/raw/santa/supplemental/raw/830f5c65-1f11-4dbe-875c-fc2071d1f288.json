@@ -1,0 +1,636 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "vocabulary": null,
+        "lessonSet": null,
+        "question": null,
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần đầu hội thoại, người nói đã dùng 'we' để chỉ công ty của họ và đề cập đây là công ty sản xuất bàn ăn và tủ quần áo (all the dining tables and wardrobes) nên (C) Furniture là đáp án đúng.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"\\bVì đây là câu hỏi công ty sản xuất gì, bạn nên đọc trước câu hỏi và tập trung vào những thông tin liên quan đến chủng loại và đặc điểm của sản phẩm.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Quần áo\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Văn phòng phẩm\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đồ nội thất\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phần mềm\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Clothing\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Stationery\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Furniture\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Software\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Công ty sản xuất gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does the company make?\"}]]}]]}"
+                }
+              },
+              "id": "17f8ba70-5f57-41cd-a406-a425907485e2",
+              "audioResourceId": "dceb61ab-3b4c-4484-9b3f-7ac08adc7690"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần giữa bài nói, người nói đã nói rằng 'Nhà kho này sẽ là nơi hoàn hảo để phân phối các sản phẩm của chúng ta vì nó nằm gần Oxford, Milltown và Harley, ba thị trấn nơi hầu hết khách hàng của chúng ta sinh sống' (This warehouse will be perfect for the distribution of our products ~ where most of our customers live) nên đáp án vị trí thuận lợi (B) là đáp án đúng.\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Bạn nên đọc câu hỏi trước để đảm bảo rằng bạn biết câu hỏi đang hỏi về nhà kho mới và lợi ích của nó, sau đó lắng nghe với sự chuẩn bị trước. \\u001dBạn nên tập trung vào việc nắm bắt những thông tin tích cực đi kèm khi kho mới được đề cập.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó có một không gian lưu trữ lớn.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó nằm ở vị trí thuận tiện.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giá thuê phải chăng\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Nó có một thiết kế hiện đại.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It has a large storage space.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is conveniently located.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is affordable to rent.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It has a modern design.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người nói đề cập đến lợi ích gì về nhà kho mới?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What benefit does the speaker mention about the new warehouse?\"}]]}]]}"
+                }
+              },
+              "id": "69b01b3e-061c-4e52-a29a-b4fee96d09e1",
+              "audioResourceId": "179eda02-a168-41b5-8656-c7be25fe6e1d"
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "branchingExplanations": {
+                  "incorrectCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  },
+                  "correctCase": {
+                    "oneOfData": {
+                      "rrtV2SectionsJson": "",
+                      "oneOfCase": null,
+                      "rrtV2InlineElementsJson": "",
+                      "html": "",
+                      "text": "",
+                      "rrtV2BlockElementsJson": ""
+                    }
+                  }
+                },
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ở phần cuối bài nói, người nói đã nói rằng mặc dù anh ta viết hầu hết nhân viên đã hoàn thành khóa đào tạo về an toàn, nhưng vẫn mong họ tiếp tục tham gia (most of you have already completed safety training, but try to understand). Sau đó, anh ta nói 'An toàn là ưu tiên hàng đầu của chúng ta' có nghĩa là anh ta nghĩ rằng một buổi đào tạo là đáng giá nên (D) là đáp án đúng. \"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Trong câu hỏi về nắm bắt ý đồ của người nói, cần đọc kỹ câu văn trích dẫn để nắm được dòng chảy hội thoại hơn là ý nghĩa cụ thể của câu văn.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON",
+                    "rrtV2InlineElementsJson": "",
+                    "html": "",
+                    "text": "",
+                    "rrtV2BlockElementsJson": ""
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "subjective": {
+                  "allowedAnswers": []
+                },
+                "trueFalse": {
+                  "answer": false
+                },
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Ông đề nghị thực hiện các chính sách mới.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ấy không đồng ý với đề xuất của Giám đốc điều hành.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ta thất vọng với kết quả kiểm tra.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Anh ấy nghĩ rằng một buổi đào tạo là đáng giá.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      3
+                    ],
+                    "orAnswers": []
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He suggests implementing new policies.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He disagrees with the CEO’s recommendation.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He is disappointed with inspection results.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "rrtV2SectionsJson": "",
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2InlineElementsJson": "",
+                        "html": "",
+                        "text": "",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"He thinks an educational session is worthwhile.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Người nói có ý gì khi nói, “Safety is our top priority”?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What does the speaker mean when he says, “Safety is our top priority”?\"}]]}]]}"
+                }
+              },
+              "id": "1d2845a8-df97-4317-9b18-c8fc7bb692d2",
+              "audioResourceId": "89d7c1e0-9cd5-4ed5-932f-118e59207c94"
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "rrtV2SectionsJson": "",
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2InlineElementsJson": "",
+              "html": "",
+              "text": "",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions 89-91 refer to the following talk.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "dd5e9880-5bd9-49ad-bb36-5be10b43d2e4",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Good morning, everybody. In case you haven’t heard yet, we are switching to a new warehouse for the storage of all the dining tables and wardrobes we manufacture. This warehouse will be perfect for the distribution of our products as it is situated near\"}],[\"text\",{\"value\":\" Oxford, Milltown, and Harley, the three towns where most of our customers live. Our CEO wants all staff to attend a safety training class before starting work in the new warehouse. I know that most of you have already completed safety training, but try to\"}],[\"text\",{\"value\":\" understand. Safety is our top priority.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "15b3bfe1-cd4b-4891-8a01-ea6da79305fc",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"A: Chào buổi sáng, mọi người. Trong trường hợp bạn chưa biết, chúng ta sẽ chuyển sang một nhà kho mới để lưu trữ tất cả bàn ăn và tủ quần áo do chúng ta sản xuất. Nhà kho này sẽ là nơi hoàn hảo để phân phối các sản phẩm của chúng ta vì nó nằm gần Oxford, Milltown và Harley, ba thị trấn nơi hầu hết khách hàng của chúng ta sinh sống. Giám đốc điều hành muốn tất cả nhân viên tham gia một lớp huấn luyện an toàn trước khi bắt đầu công việc tại nhà kho mới. Tôi biết rằng hầu hết các bạn đã hoàn thành khóa đào tạo về an toàn, nhưng hãy cố gắng hiểu. An toàn là ưu tiên hàng đầu của chúng ta.\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "4c9c4414-cc15-45e0-98aa-3aaa6e6cb955",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phát âm\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Giọng nam người Mỹ\"}]]}]]}"
+                }
+              }
+            },
+            {
+              "id": "770424db-d1ce-4510-b259-465225cdc010",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\",\"weight\":\"#w700\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"in case (that): trong trường hợp\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"switch to: chuyển sang, đổi sang\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"warehouse [Danh từ] nhà kho\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"storage [Danh từ] bảo quản, lưu trữ\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"wardrobe [Danh từ] tủ quần áo\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"manufacture [Động từ] sản xuất\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"distribution [Danh từ] phân phối\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"be situated near: ở gần\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"want A to do: muốn A làm gì\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"attend [Động từ] tham dự\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"training [Danh từ] đào tạo, huấn luyện\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"complete [Động từ] hoàn thành\",\"weight\":\"#w400\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"priority [Danh từ] ưu tiên\",\"weight\":\"#w400\"}]]}]]}"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "0311de49-b51d-4bc8-95d4-c2f72dba3c94",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "",
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2InlineElementsJson": "",
+                  "html": "",
+                  "text": "",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}]]}"
+                }
+              },
+              "audioResourceId": "c3f55dea-c3e1-4298-a2ad-553799e923cc"
+            }
+          ]
+        },
+        "lesson": null
+      },
+      "questionCount": null,
+      "chapter": "work",
+      "wordPosList": null,
+      "chapterList": [
+        "work",
+        "information",
+        "detail",
+        "context_lc"
+      ],
+      "subject": "lc",
+      "part": "p4",
+      "eqId": null,
+      "section": null,
+      "wordPos": null,
+      "targetWords": null,
+      "skill": "listening",
+      "virtualExam": "half_virtual_exam_kr_2",
+      "v0Voca": null,
+      "dalc": "test_practice",
+      "vocaOngoingStep": null,
+      "migrated": null,
+      "sectionList": null,
+      "contentType": "question",
+      "subjectList": null,
+      "level": null,
+      "lessonGroup": null,
+      "questionSetName": null,
+      "difficulty": null,
+      "vocaGroup": null,
+      "contentTypeList": null,
+      "filename": "[Half_test_2] PART 4_211023.zip",
+      "lessonGroupV2": null,
+      "preventRecommendation": true,
+      "pronounce": "amm",
+      "word": null,
+      "partList": [
+        "p4"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT",
+    "toeicSpeakingPartContent": null,
+    "gtelpContent": null
+  },
+  "baseContent": {
+    "updatedTime": "2025-03-07T09:26:50.239Z",
+    "domain": "TOEIC",
+    "contentId": "830f5c65-1f11-4dbe-875c-fc2071d1f288",
+    "createdTime": "2023-04-10T13:34:25.479Z",
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}

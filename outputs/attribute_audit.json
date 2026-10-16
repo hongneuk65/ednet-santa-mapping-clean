@@ -1,0 +1,76 @@
+{
+  "reserved_attribute_tags": [
+    181,
+    182,
+    183,
+    184,
+    185
+  ],
+  "suppressed_correlates": [
+    {
+      "tag_id": 184,
+      "part": "p4",
+      "axis": "task",
+      "label": "detail",
+      "hits": 63,
+      "observed": 73,
+      "bridge_questions": 78,
+      "reference_questions": 168,
+      "precision_observed": 0.863013698630137,
+      "observed_fraction": 0.9358974358974359,
+      "bridge_coverage": 0.4642857142857143,
+      "reference_bundle_support": 21,
+      "recall_same_part_observed": 0.15441176470588236,
+      "lift": 1.2120265914585013,
+      "wilson_lower_question_iid_only": 0.7658736406081267,
+      "example_ids": [
+        "q10673",
+        "q10674",
+        "q10675",
+        "q10697",
+        "q10698"
+      ],
+      "source": "question_proxy",
+      "status": "attribute_correlate_pending_review",
+      "small_sample": false,
+      "near_tie_labels": [
+        "detail",
+        "next_action"
+      ],
+      "semantic_validated": false
+    },
+    {
+      "tag_id": 184,
+      "part": "p4",
+      "axis": "task",
+      "label": "next_action",
+      "hits": 60,
+      "observed": 73,
+      "bridge_questions": 78,
+      "reference_questions": 168,
+      "precision_observed": 0.821917808219178,
+      "observed_fraction": 0.9358974358974359,
+      "bridge_coverage": 0.4642857142857143,
+      "reference_bundle_support": 20,
+      "recall_same_part_observed": 0.18018018018018017,
+      "lift": 1.4142910033320992,
+      "wilson_lower_question_iid_only": 0.7187805780985462,
+      "example_ids": [
+        "q10673",
+        "q10674",
+        "q10675",
+        "q10682",
+        "q10683"
+      ],
+      "source": "question_proxy",
+      "status": "attribute_correlate_pending_review",
+      "small_sample": false,
+      "near_tie_labels": [
+        "detail",
+        "next_action"
+      ],
+      "semantic_validated": false
+    }
+  ],
+  "note": "Do not extrapolate accent values across Parts. Reservation prevents unrelated skill merges."
+}

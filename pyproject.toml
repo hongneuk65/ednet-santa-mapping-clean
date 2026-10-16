@@ -1,0 +1,8 @@
+[project]
+name = "ednet-santa-mapping-clean"
+version = "0.1.0"
+description = "Reproducible source-only Santa / EdNet matching and coarse tag mapping"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

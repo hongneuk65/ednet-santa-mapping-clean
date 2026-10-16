@@ -1,0 +1,281 @@
+{
+  "oneOfDomainContent": {
+    "toeicContent": {
+      "oneOfType": {
+        "oneOfCase": "QUESTION_SET",
+        "questionSet": {
+          "passageTranslations": [],
+          "questions": [
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Cranswick Inc. được nhắc đến trong tin nhắn đầu tiên và nội dung liên quan đến một phần chi nhánh của công ty đó được nối tiếp ở phía sau nên có thể tìm ra manh mối ở phần này. Trong các đáp án, nội dung liên quan đến nhân viên lễ tân của Cranswick Inc. không xuất hiện nên đáp án đúng là đáp án (B).\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Phân tích đáp án sai\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(A) Dòng mỹ phẩm mới xuất hiện trong tin nhắn lúc 9 giờ 46 phút ‘~ the new organic makeup line’.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(C) Thực tế về việc có nhiều hơn một chi nhánh có thể xác nhận ở tin nhắn lúc 9 giờ 44 phút nói về ‘Vinceville branch’ và tin nhắn lúc 9 giờ 46 phút nói về ‘Eagleton branch’.\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"(D) Thông tin chỉ mở cửa các ngày thường trong tuần xuất hiện ở tin nhắn lúc 9 giờ 48 phút ‘~ not open on the weekends’\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Vì đây là câu hỏi phải tìm thông tin trong toàn bộ bài đọc nên sẽ thuận lợi hơn nếu bạn trả lời câu hỏi này sau khi làm các câu hỏi khác trước để nắm được nội dung và gợi ý của toàn đoạn văn.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Có dòng mỹ phẩm mới.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đang không có nhân viên lễ tân.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Có hơn một chi nhánh.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Chỉ mở cửa vào ngày trong tuần.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      1
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It has a new line of cosmetics.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Its receptionist is absent.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It has more than one branch.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"It is only open on weekdays.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Thông tin nào sai về công ty Cranswick Inc.?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"What is NOT indicated about Cranswick Inc.?\"}]]}]]}"
+                }
+              },
+              "id": "7279",
+              "audioResourceId": ""
+            },
+            {
+              "oneOfExplanationType": {
+                "oneOfCase": "EXPLANATION",
+                "explanation": {
+                  "oneOfData": {
+                    "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Diễn giải \"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Có thể hiểu câu văn trong câu hỏi là ‘Jamie đã kí nhận cái đó rồi’. Ở đây ‘it’ là đại từ được sử dụng xuyên suốt đoạn văn để chỉ ‘package’ mà Sinclair đề cập đến ở phần đầu tiên. Theo đó, có thể biết rằng đây là kết quả cho việc Reid đã xác nhận ở bàn lễ tân và câu ‘Jamie đã kí nhận cái đó rồi’ có nghĩa là \\bcô ấy đã kí nhận và mang nó đi rồi. Theo đó đáp án đúng là đáp án (C).\"}]]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Mẹo\"}]]}],[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Đây là câu hỏi nắm bắt ý nghĩa của một câu văn cho sẵn nên cần nhanh chóng tìm ra phần có câu văn đó rồi phân tích ý nghĩa chính xác của nó thông qua mối quan hệ ý nghĩa với câu trước và câu sau.\"}]]}]]}]}",
+                    "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                  }
+                }
+              },
+              "oneOfTypeSpec": {
+                "oneOfCase": "OBJECTIVE",
+                "objective": {
+                  "choiceTranslations": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie đã liên lạc với Cranswick Inc.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie đã chấp nhận hợp đồng.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Có lẽ Jamie đang giữ bưu phẩm.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie sẽ gửi tài liệu qua email.\"}]]}]]}"
+                      }
+                    }
+                  ],
+                  "oneOfAnswers": {
+                    "oneOfCase": "AND_ANSWER",
+                    "andAnswers": [
+                      2
+                    ]
+                  },
+                  "choices": [
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie has contacted Cranswick Inc.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie approves of an agreement.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie probably has a package.\"}]]}]]}"
+                      }
+                    },
+                    {
+                      "oneOfData": {
+                        "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                        "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Jamie will e-mail a document.\"}]]}]]}"
+                      }
+                    }
+                  ]
+                }
+              },
+              "attachedResourceIds": [],
+              "tagIds": [],
+              "descriptionTranslation": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\" Vào lúc 9 giờ 55 phút, khi Reid viết tin nhắn “Jamie signed for it”, điều đó có nghĩa là gì?\"}]]}]]}"
+                }
+              },
+              "description": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"align\":\"#left\",\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"At 9:55 A.M., what does Ms. Reid suggest when she writes, “Jamie signed for it”?\"}]]}]]}"
+                }
+              },
+              "id": "7280",
+              "audioResourceId": ""
+            }
+          ],
+          "description": {
+            "oneOfData": {
+              "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+              "rrtV2BlockElementsJson": "{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Questions  refer to the following text message chain.\"}]]}]]}"
+            }
+          },
+          "explanations": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "rrtV2SectionsJson": "{\"children\":[{\"children\":[[\"dialog-list\",{\"children\":[{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Bây giờ bạn đang ở văn phòng à? Bởi vì tôi đang đợi bưu phẩm gửi từ Cranswick Inc.\"}],[\"text\",{\"value\":\"　[9:43 sáng]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Charlotte Reid　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Hôm qua bạn chưa nhận được cái gửi từ chi nhánh Vinceville của công ty đó à?\"}],[\"text\",{\"value\":\"　[9:44 sáng]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Có, nhưng lần này là cái gửi từ chi nhánh Eagleton. Đó là một số mẫu của dòng trang điểm hữu cơ mới của công ty đó\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:46 sáng]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Charlotte Reid　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tôi sẽ xác nhận ở quầy lễ tân. Chờ tôi một chút\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:47 sáng]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tôi biết rồi. Cảm ơn bạn. Vì công ty Cranswick Inc. không mở cửa vào cuối tuần nên tôi hi vọng sẽ nhận được vào hôm nay hoặc ngày mai\"}],[\"text\",{\"value\":\".\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:48 sáng]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Charlotte Reid　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Theo lời của nhân viên ở quầy lễ tân, Jamie đã kí nhận và cầm đi rồi.\"}],[\"text\",{\"value\":\"　[9:55 sáng]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Tôi biết rồi. Tôi sẽ liên lạc lại với Jamie. Cảm ơn bạn\"}],[\"text\",{\"value\":\"!\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:56 sáng]\",\"weight\":\"#w700\"}]]}]}]]},{\"children\":[[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"Từ vựng\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"expect [Động từ]: Chờ, mong đợi\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"package [Danh từ]: Bưu phẩm\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"branch [Danh từ]: Chi nhánh\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"organic [Tính từ]: Hữu cơ\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"makeup [Danh từ]: Mỹ phẩm\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"line [Danh từ]: Dòng sản phẩm\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"check with: Xác nhận với\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"according to [Giới từ]: Theo như\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"receptionist [Danh từ]: Nhân viên lễ tân\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"sign for: Kí nhận rồi mang đi\"}]]}],[\"paragraph\",{\"numbering\":\"#none\",\"indent-level\":0,\"children\":[[\"text\",{\"value\":\"follow up with: Liên lạc lại về ~, thực hiện biện pháp tiếp theo\"}]]}]]}]}",
+                  "oneOfCase": "RRT_V2_SECTIONS_JSON"
+                }
+              }
+            }
+          ],
+          "passages": [
+            {
+              "id": "",
+              "body": {
+                "oneOfData": {
+                  "oneOfCase": "RRT_V2_BLOCK_ELEMENTS_JSON",
+                  "rrtV2BlockElementsJson": "{\"children\":[[\"dialog-list\",{\"children\":[{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Are you at the office? I’m expecting a package from Cranswick Inc. today.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:43 A.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Charlotte Reid　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Didn’t you get one from its Vinceville branch yesterday?\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:44 A.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Yes, but this one is from the Eagleton branch. It’s some samples of the new organic makeup line.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:46 A.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Charlotte Reid　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"I can check with the front desk. Just a moment.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:47 A.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Okay, thanks. I hope I get it today or tomorrow because Cranswick Inc. is not open on the weekends.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:48 A.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Charlotte Reid　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"According to the receptionist, Jamie signed for it.\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:55 A.M.]\",\"weight\":\"#w700\"}]]},{\"children\":[[\"text\",{\"value\":\"Harry Sinclair　\",\"weight\":\"#w700\"}],[\"text\",{\"value\":\"Okay. I’ll follow up with her. Thanks!\",\"weight\":\"#w400\"}],[\"text\",{\"value\":\"　[9:56 A.M.]\",\"weight\":\"#w700\"}]]}]}]]}"
+                }
+              },
+              "audioResourceId": ""
+            }
+          ]
+        }
+      },
+      "chapter": "connection",
+      "chapterList": [
+        "connection",
+        "passage_text",
+        "true_not_true",
+        "single_passage",
+        "context_rc"
+      ],
+      "subject": "rc",
+      "part": "p7",
+      "skill": "reading",
+      "dalc": "test_practice",
+      "partList": [
+        "p7"
+      ]
+    },
+    "oneOfCase": "TOEIC_CONTENT"
+  },
+  "baseContent": {
+    "updatedTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 33,
+          "second": 37,
+          "nano": 37000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "domain": "TOEIC",
+    "contentId": "toeic_test_contentId_p7n-117",
+    "createdTime": {
+      "dateTime": {
+        "date": {
+          "year": 2023,
+          "month": 4,
+          "day": 10
+        },
+        "time": {
+          "hour": 13,
+          "minute": 33,
+          "second": 37,
+          "nano": 37000000
+        }
+      },
+      "offset": {
+        "totalSeconds": 0
+      }
+    },
+    "locale": "VI_VN",
+    "status": "PUBLISHED"
+  }
+}
